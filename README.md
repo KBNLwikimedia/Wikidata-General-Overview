@@ -103,7 +103,7 @@ Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 
 * "Mount Everest is the highest point in the world" : Earth (Q2) (item) --> highest point (P610) (property) --> Mount Everest (Q513) (value)
 * Triple: [Earth (Q2)](http://www.wikidata.org/entity/Q2)  --> [highest point (P610)](http://www.wikidata.org/entity/P610)  --> [Mount Everest (Q513)](http://www.wikidata.org/entity/Q513)  
-* KB on Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131 (http:, /entity/), redirecting to https://www.wikidata.org/wiki/Q1526131 (https:, /wiki/)
+* KB on Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131 (http: and /entity/), redirecting to https://www.wikidata.org/wiki/Q1526131 (https: and /wiki/)
     1) Unique identifier (Q-id)
     2) Multilingual fingerprint: Label, Description, Aliases (Also known as)
     3) Statements
@@ -115,16 +115,16 @@ Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 * Further reading & help: [How does Wikidata work?](https://www.wikidata.org/wiki/Wikidata:Introduction#How_does_Wikidata_work?) + [Wikidata:Glossary](https://www.wikidata.org/wiki/Wikidata:Glossary)  
 * Wikidata intro videos on Youtube: Searches for [Introduction Wikidata](https://www.youtube.com/results?search_query=introduction+wikidata), [Wikidata 101](https://www.youtube.com/results?search_query=wikidata+101) and [Wikidata help](https://www.youtube.com/results?search_query=wikidata+help)  
 
-## 4) How to discover Q's and P's in Wikidata
+## 4) How to discover Qs and Ps in Wikidata
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page47-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-103 M Q-items + 11 K Properties (peildatum 25-05-2023)
-Zoeken naar Q’s en P’s: https://www.wikidata.org/wiki/Special:Search + https://www.wikidata.org/w/index.php?fulltext=1&search=konink&title=Special%3ASearch&ns0=1&ns120=1 
-Bladeren door alle Q’s: https://www.wikidata.org/wiki/Special:AllPages (maar niet heel handig bij 103M items)
-Bladeren door alle eigenschappen (P’s): https://www.wikidata.org/w/index.php?title=Special:ListProperties/&limit=500&offset=0  + https://www.wikidata.org/wiki/Special:AllPages?from=P610&to=&namespace=120  + https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all  
-Eigenschappen op thema: https://www.wikidata.org/wiki/Wikidata:List_of_properties + https://www.wikidata.org/wiki/Wikidata:List_of_properties/art + https://www.wikidata.org/wiki/Wikidata:Property_navboxes  
-Wikidata als hub van 8000+ andere databases: https://hay.toolforge.org/propbrowse/ (selecteer External identifiers)
+* Wikidata contains 103M Qitems + 11K Properties (dated 25-05-2023)
+* Searching for Qs en Ps: [Special:Search](https://www.wikidata.org/wiki/Special:Search) + [search results for 'konink'](https://www.wikidata.org/w/index.php?fulltext=1&search=konink&title=Special%3ASearch&ns0=1&ns120=1) 
+* Browsing all Items (Qs): [Special:AllPages](https://www.wikidata.org/wiki/Special:AllPages) (but not very useful for 103M items)
+* Browsing all Properties (Ps): [List of all Properties](https://www.wikidata.org/w/index.php?title=Special:ListProperties/&limit=500&offset=0)  + [All pages (Property namespace)](https://www.wikidata.org/wiki/Special:AllPages?from=P610&to=&namespace=120)  + [List of properties/all](https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all) + [Properties by theme](https://www.wikidata.org/wiki/Wikidata:Property_navboxes) (Anatomy, Ancient world, Astronomical objects etc.) 
+* [Search properties by keyword](https://www.wikidata.org/wiki/Wikidata:List_of_properties)
+* Wikidata as hub of [8.000+ external databases](https://hay.toolforge.org/propbrowse/) (select 'External identifiers')
 
 ## 5) How to request data from Wikidata
 
