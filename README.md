@@ -243,8 +243,8 @@ Zelf aan de slag met SPARQL in Wikidata?
 * Discover Wikidata tools: [Wikidata:Tools](https://www.wikidata.org/wiki/Wikidata:Tools) + [on Toolhub](https://toolhub.wikimedia.org/search?q=wikidata) + [in Hay's Tools Directory](https://hay.toolforge.org/directory/?search=wikidata#/search/wikidata)
 * Tool examples:
   - [Duplicate items](https://www.wikidata.org/wiki/Wikidata:Tools/Enhance_user_interface#Userscripts_to_add_basic_editing_features_that_Wikibase_lacks)
-  - [VizQuery](https://hay.toolforge.org/vizquery) to build SPARQL queries visually (via [Wikidata:Tools/Query_data](https://www.wikidata.org/wiki/Wikidata:Tools/Query data))
-  - [Histropedia](http://histropedia.com/), Wikidata powered timelines. [Timeline of Apollo missions](http://histropedia.com/timeline/7c00jg84kn/Apollo-missions) (via [Wikidata:Tools/Visualize_data](https://www.wikidata.org/wiki/Wikidata:Tools/Visualize data))
+  - [VizQuery](https://hay.toolforge.org/vizquery) to build SPARQL queries visually - via [Wikidata:Tools/Query data](https://www.wikidata.org/wiki/Wikidata:Tools/Query_data)
+  - [Histropedia](http://histropedia.com/), Wikidata powered timelines. Eg. a [timeline of Apollo missions](http://histropedia.com/timeline/7c00jg84kn/Apollo-missions) - via [Wikidata:Tools/Visualize data](https://www.wikidata.org/wiki/Wikidata:Tools/Visualize_data)
   - [Wikidata Firefox add-ons](https://addons.mozilla.org/en-US/firefox/search/?q=wikidata)
   - [Wikidata for Google Sheets](https://workspace.google.com/marketplace/app/wikipedia_and_wikidata_tools/595109124715) 
 * [Coolest Tool Awards](https://meta.wikimedia.org/wiki/Coolest_Tool_Award) + [2019 awards](https://meta.wikimedia.org/wiki/Coolest_Tool_Award/2019) + [more background info](https://wikimania.wikimedia.org/wiki/2019:Technology_outreach_%26_innovation/Coolest_Tool_Award_2019)   
@@ -258,39 +258,43 @@ Zelf aan de slag met SPARQL in Wikidata?
 * Cultural, GLAMs & libraries WikiProjects: https://www.wikidata.org/wiki/Category:Cultural_WikiProjects + https://www.wikidata.org/wiki/Category:GLAM_WikiProjects + https://www.wikidata.org/wiki/Category:Library_WikiProjects  
 * WikiProjects KB: https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland/CurrentProjects + https://www.wikidata.org/wiki/Category:WikiProjects_National_Library_of_the_Netherlands. Meer hierover in de verdiepende cursus “Wikidata & KB” (aug-sept)
 
-## 9) How do you stay informed?
+## 9) How to stay informed
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page126-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-* Wikidata Weekly Summary (newsletter): https://www.wikidata.org/wiki/Wikidata:Status_updates/2023_05_15 + https://www.wikidata.org/wiki/Wikidata:Status_updates  + https://www.wikidata.org/wiki/User_talk:OlafJanssen 
-* Wikidata mailinglist:  https://lists.wikimedia.org/postorius/lists/wikidata.lists.wikimedia.org/ + https://lists.wikimedia.org/hyperkitty/list/wikidata@lists.wikimedia.org/ 	
-* Wikidata project chat : https://www.wikidata.org/wiki/Wikidata:Project_chat
-* Wikidata De Kroeg (Nederlandstalige discussie): https://www.wikidata.org/wiki/Wikidata:De_kroeg    
-* Wikidata @Telegram: Wikidata Algemeen: https://t.me/joinchat/AZriqUj5UajwQxn1aZ9WOg + https://web.telegram.org/k/#-1224298920Wikidata Help: https://t.me/wikidatachat + https://web.telegram.org/k/#@wikidatachatOverige Telegram-kanalen: https://meta.wikimedia.org/wiki/Telegram#Wikidata 
-* Wikidata @Twitter:  https://twitter.com/wikidata  
-* Wikidata @Facebook: https://www.facebook.com/Wikidata + https://www.facebook.com/groups/WikidataCommunity + https://www.facebook.com/groups/Wikidata.GLAM/ 
+* [Wikidata Weekly Summary](https://www.wikidata.org/wiki/Wikidata:Status_updates) (newsletter), e.g. [15 May 2023](https://www.wikidata.org/wiki/Wikidata:Status_updates/2023_05_15) 
+* [Wikidata mailinglist](https://lists.wikimedia.org/postorius/lists/wikidata.lists.wikimedia.org/) + [archives](https://lists.wikimedia.org/hyperkitty/list/wikidata@lists.wikimedia.org) 	
+* [Wikidata project chat](https://www.wikidata.org/wiki/Wikidata:Project_chat)
+* [Wikidata De Kroeg](https://www.wikidata.org/wiki/Wikidata:De_kroeg) (Dutch discussions)  
+* Wikidata @Telegram:
+    - [General conversation about Wikidata](https://web.telegram.org/k/#-1224298920) and the [invite link](https://t.me/joinchat/AZriqUj5UajwQxn1aZ9WOg) 
+    - [Wikidata Help](https://web.telegram.org/k/#@wikidatachat) and the [invite link](https://t.me/wikidatachat) 
+    - [Other Wikidata Telegram channels](https://meta.wikimedia.org/wiki/Telegram#Wikidata) 
+* [Wikidata @Twitter](https://twitter.com/wikidata)  
+* [Wikidata @Facebook](https://www.facebook.com/Wikidata) + [Wikidata Community @Facebook](https://www.facebook.com/groups/WikidataCommunity) + [Wikidata.GLAM @Facebook](https://www.facebook.com/groups/Wikidata.GLAM) 
 
 ## 10) Where to find help (passively and actively)
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page132-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-* Wikidata documentation portal: https://www.wikidata.org/wiki/Help:Contents  
-* Wikidata Community portal: https://www.wikidata.org/wiki/Wikidata:Community_portal 
-* Wikidata Professional Development Training: https://dashboard.wikiedu.org/training/wikidata-professional +  https://dashboard.wikiedu.org/training/wikidata-professional/wikidata-community  
-* Telegram, Mailinglists, Project chat, Twitter, Facebook – zie punt 9 hierboven
-* Live chat + Email : https://web.libera.chat/?channel=#wikidata + info@wikidata.org  
-* StackExchange (technisch): https://stackexchange.com/search?q=wikidata 
-* Hulp van User:OlafJanssen : https://www.wikidata.org/wiki/User:OlafJanssen -- https://www.kb.nl/over-ons/experts/olaf-janssen 
+* [Wikidata documentation portal](https://www.wikidata.org/wiki/Help:Contents), the place where you can get help contributing to Wikidata.  
+* [Wikidata Community portal](https://www.wikidata.org/wiki/Wikidata:Community_portal) 
+* [Wikidata Professional Development Training Modules](https://dashboard.wikiedu.org/training/wikidata-professional), a set of modules covering the basics of contributing to Wikidata. See the [module about the Wikidata community](https://dashboard.wikiedu.org/training/wikidata-professional/wikidata-community).  
+* Via Telegram, Mailinglists, Project chat, Twitter, Facebook: see [Section 9](#9-How-to-stay-informed) above
+* [Live chat](https://web.libera.chat/?channel=#wikidata))
+* Email : info@wikidata.org  
+* [StackExchange](https://stackexchange.com/search?q=wikidata) (technical help)  
+* Help by [User:OlafJanssen](https://www.wikidata.org/wiki/User:OlafJanssen). See also his [expert page](https://www.kb.nl/over-ons/experts/olaf-janssen) on kb.nl 
 
 ## 11) How to proceed?
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page139-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
  
-* Lees je verder in a.d.h.v. dit slidedeck  Zie transcriptie
-* Maak account aan: https://www.wikidata.org/wiki/Special:CreateAccount
-* Ga zelf aan de slag met Wikidata
-* Volg de KB-workshops
- * OpenRefine & Wikidata : dinsdag 4 juli as.
- * Verdiepende cursus Wikidata & KB (aug-sept) 
- * Wikidata & SPAQRL workshop? (najaar)
-* Vragen, ondersteuning, extra uitleg?   Olaf
+* [Create an account](https://www.wikidata.org/wiki/Special:CreateAccount) on Wikidata 
+* Get started with Wikidata yourself
+* Check the other Wikimedia related courses of the KB 
+    - [Wikidata & KB, an overview](https://github.com/KBNLwikimedia/Wikidata-KB-Overview), an overview of how Wikidata is used by/in/for both the linked open datasets (thesauri) and public domain heritage collections of the KB.
+    - [OpenRefine-Wikidata Introduction Workshop](https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop), a practical 90 minutes workshop (in Dutch) to learn how to work with OpenRefine and Wikidata at a basic level.
+    - [Wikibase resources](https://github.com/KBNLwikimedia/Wikibase-resources), a collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB.
+    - Wikidata & SPAQRL workshop (2024, to be announced)
+* Questions? Looking for support or extra explanations? Contact Olaf Janssen
