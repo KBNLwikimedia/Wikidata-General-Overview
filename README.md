@@ -36,7 +36,7 @@ Latest update: 4 January 2024
 ### Contents
 Add TOC
 
-### Course objectives
+### Objectives of this page
 1) To provide a broad overview of the Wikidata landscape, including both the technical and non-technical (social, community) aspects.
 2) To foster and stimulate more self-reliance in exploring the Wikidata universe
 
