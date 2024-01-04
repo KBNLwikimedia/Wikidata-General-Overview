@@ -251,12 +251,14 @@ Zelf aan de slag met SPARQL in Wikidata?
 
 ### Projects
 * A WikiProject (on Wikidata) is a group of contributors who want to work together as a team to improve Wikidata. Editors join WikiProjects to improve specific areas of Wikidata and build the community.
-* Wikiprojects (on Wikidata): https://www.wikidata.org/wiki/Wikidata:WikiProjects + https://www.wikidata.org/wiki/Wikidata:WikiProjects/nl 
-* Learn more about WikiProjects: https://dashboard.wikiedu.org/training/wikidata-professional/wikidata-wikiprojects 
-* WikiProjects examples  - COVID-19: https://www.wikidata.org/wiki/Wikidata:WikiProject_COVID-19  - Books: https://www.wikidata.org/wiki/Wikidata:WikiProject_Books  - Tennis: https://www.wikidata.org/wiki/Wikidata:WikiProject_Tennis  - Sum of all paintings, to make a LOD description for every notable painting in the world:    https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings (excellent project, check ik out!!!) 
-* WikiProjects overviews: https://www.wikidata.org/wiki/Wikidata:WikiProjects/List  + https://www.wikidata.org/wiki/Category:WikiProjects
-* Cultural, GLAMs & libraries WikiProjects: https://www.wikidata.org/wiki/Category:Cultural_WikiProjects + https://www.wikidata.org/wiki/Category:GLAM_WikiProjects + https://www.wikidata.org/wiki/Category:Library_WikiProjects  
-* WikiProjects KB: https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland/CurrentProjects + https://www.wikidata.org/wiki/Category:WikiProjects_National_Library_of_the_Netherlands. Meer hierover in de verdiepende cursus “Wikidata & KB” (aug-sept)
+* [Wikidata professional training module about WikiProjects](https://dashboard.wikiedu.org/training/wikidata-professional/wikidata-wikiprojects) 
+* Wikidata projects examples: [COVID-19](https://www.wikidata.org/wiki/Wikidata:WikiProject_COVID-19) - [Books](https://www.wikidata.org/wiki/Wikidata:WikiProject_Books) - [Tennis](https://www.wikidata.org/wiki/Wikidata:WikiProject_Tennis) - [Sum of all paintings](https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings), to make a LOD description for every notable painting in the world (excellent project, check ik out!!!) 
+* Wikidata projects overviews:
+    - [Current WikiProjects on Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProjects)
+    - [List of Wikidata projects](https://www.wikidata.org/wiki/Wikidata:WikiProjects/List)
+    - [Category:WikiProjects](https://www.wikidata.org/wiki/Category:WikiProjects)
+* [Cultural Wikiprojects](https://www.wikidata.org/wiki/Category:Cultural_WikiProjects), [GLAM WikiProjects](https://www.wikidata.org/wiki/Category:GLAM_WikiProjects) and [Library WikiProjects](https://www.wikidata.org/wiki/Category:Library_WikiProjects)  
+* KB: [Current Wikidata projects](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland/CurrentProjects) + [Category:WikiProjects National Library of the Netherlands](https://www.wikidata.org/wiki/Category:WikiProjects_National_Library_of_the_Netherlands)
 
 ## 9) How to stay informed
 
@@ -281,7 +283,7 @@ Zelf aan de slag met SPARQL in Wikidata?
 * [Wikidata Community portal](https://www.wikidata.org/wiki/Wikidata:Community_portal) 
 * [Wikidata Professional Development Training Modules](https://dashboard.wikiedu.org/training/wikidata-professional), a set of modules covering the basics of contributing to Wikidata. See the [module about the Wikidata community](https://dashboard.wikiedu.org/training/wikidata-professional/wikidata-community).  
 * Via Telegram, Mailinglists, Project chat, Twitter, Facebook: see [Section 9](#9-How-to-stay-informed) above
-* [Live chat](https://web.libera.chat/?channel=#wikidata))
+* [Live chat](https://web.libera.chat/?channel=#wikidata)
 * Email : info@wikidata.org  
 * [StackExchange](https://stackexchange.com/search?q=wikidata) (technical help)  
 * Help by [User:OlafJanssen](https://www.wikidata.org/wiki/User:OlafJanssen). See also his [expert page](https://www.kb.nl/over-ons/experts/olaf-janssen) on kb.nl 
