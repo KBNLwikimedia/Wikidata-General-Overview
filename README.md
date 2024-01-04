@@ -70,22 +70,36 @@ Schriml, Andrew I. Su and Benjamin M. Good
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page15-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-https://www.wikidata.org/wiki/Wikidata:Introduction  + https://www.wikidata.org/wiki/Wikidata:Philosophy 
+See [Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction) and [Wikidata:Philosophy ](https://www.wikidata.org/wiki/Wikidata:Philosophy) 
 
-* Gestructureerde beschrijvingen van dingen
-* Centrale opslag (vs gedistribueerd – data silo’s)
-* Meertalig (200+ talen) - Beschrijving van de Eiffeltoren - https://www.wikidata.org/wiki/Q243 (Nederlandstalige, Engelstalige, Portugese en Japanse interface)
-* Linked data - Things, not strings - Geen platte tekst, maar klikbare links - Onderling verbonden: https://www.wikidata.org/wiki/Q243 (Eiffeltoren) en https://www.wikidata.org/wiki/Q20882 (Gustave Eiffel) - Verbonden met andere databases: https://www.skyscrapercenter.com/building/wd/9410 
-* Open & vrij - Gratis, geen trackers, geen ads  - Geen auteurs- of databankrechten (CC0-licentie - https://creativecommons.org/publicdomain/zero/1.0/) - Iedereen mag data hergebruiken: bevragen, delen, kopiëren, bewerken, downloaden, verkopen etc. - * Iedereen mag data bijdragen/bewerken toevoegen, verbeteren, verwijderen, samenvoegen etc. --> community
-* Community - Internationaal - 24K bewerkers - Onder de vlag van de Wikimedia Foundation  zusterproject van Wikipedia, Commons etc. - Meer bij sectie 7) Wie maakt Wikidata? 
-* Voor mensen en machines - Mensleesbaar, mensschrijfbaar --> Data beschikbaar via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (Koninklijke bibliotheek) - Machineleesbaar, machineschrijfbaar --> Data beschikbaar via APIs in JSON, XML/RDF, CSV etc.,     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
-* Of, iets anders geformuleerd…  - Gratis nutsvoorziening voor data  - One stop shop for Linked open data  - LOD, maar dan wél begrijpelijk
+1. Structured descriptions of things
+2. Central storage (vs distributed), no data silos
+3. Multilingual (200+ languages): [Description of the Eiffel Tower](https://www.wikidata.org/wiki/Q243), check the [Dutch](https://www.wikidata.org/wiki/Q243?uselang=nl), [English](https://www.wikidata.org/wiki/Q243?uselang=en), [Portuguese](https://www.wikidata.org/wiki/Q243?uselang=pt) and [Japanese](https://www.wikidata.org/wiki/Q243?uselang=ja) interfaces/
+4. Linked data
+   - Things, not strings - No plain text, but clickable links
+   - Interconnected: [Eiffel Tower](https://www.wikidata.org/wiki/Q243) and [Gustave Eiffel](https://www.wikidata.org/wiki/Q20882) 
+   - Connected to external databases (external IDs): https://www.skyscrapercenter.com/building/wd/9410
+5) Open & free
+   - Free, no trackers, no ads
+   - No copyright or database rights, [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/)
+   - Everyone can reuse data: query, share, copy, edit, download, sell, etc. 
+   - Everyone may contribute/edit data, add, improve, delete, merge, etc. --> community
+6) Community
+   - International, 24K editors
+   - Under the banner of the [Wikimedia Foundation](https://en.wikipedia.org/wiki/Wikimedia_Foundation) --> sister project of Wikipedia, Commons etc. 
+   - More in [section 7) Who creates Wikidata?](#who-creates-wikidata)
+7) For humans and machines
+   - Human readable, human writable --> Data available via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (KB)
+  - Machine readable, machine writable --> Data available via APIs in JSON, XML/RDF, CSV etc., 
+    - https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131 
+    - https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml
+8) Or, formulated slightly differently: a free public utility for data - One stop shop for Linked open data - LOD, but understandable
 
 ## 3) How things are described in Wikidata
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page33-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-Overzicht: https://www.wikidata.org/wiki/Help:About_data
+Overview: [Help:About_data](https://www.wikidata.org/wiki/Help:About_data)
 
 * "Mount Everest is the highest point in the world“Earth (Q2) (item) --> highest point (P610) (property) --> Mount Everest (Q513) (value)Triple : http://www.wikidata.org/entity/Q2  --> http://www.wikidata.org/entity/P610  --> http://www.wikidata.org/entity/Q513  
 * KB op Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131  --> https://www.wikidata.org/wiki/Q1526131 
@@ -115,7 +129,7 @@ Wikidata als hub van 8000+ andere databases: https://hay.toolforge.org/propbrows
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page54-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-Overzicht: https://www.wikidata.org/wiki/Wikidata:Data_access  
+Overview: [Wikidata:Data_access](https://www.wikidata.org/wiki/Wikidata:Data_access)  
 
 #### 1) Zoeken in web browser (o.b.v. ElasticSearch)
 * https://www.wikidata.org/wiki/Wikidata:Data_access#Search 
@@ -224,11 +238,15 @@ Zelf aan de slag met SPARQL in Wikidata?
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page111-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
 ### Tools
-* Wikidata tools: https://www.wikidata.org/wiki/Wikidata:Tools 
-* What is a tool?: https://meta.wikimedia.org/wiki/Coolest_Tool_Award#What_is_a_tool? 
-* Wikidata tools ontdekken: https://www.wikidata.org/wiki/Wikidata:Tools + https://toolhub.wikimedia.org/search?q=wikidata + https://hay.toolforge.org/directory/?search=wikidata#/search/wikidata
-* Voorbeelden tools:  - Duplicate items: https://www.wikidata.org/wiki/Wikidata:Tools/Enhance_user_interface#Userscripts_to_add_basic_editing_features_that_Wikibase_lacks  - VizQuery, build SPARQL queries visually: https://hay.toolforge.org/vizquery (via https://www.wikidata.org/wiki/Wikidata:Tools/Query_data)  - Histropedia, Wikidata powered timelines. Timeline of Apollo missions: http://histropedia.com/timeline/7c00jg84kn/Apollo-missions    (via https://www.wikidata.org/wiki/Wikidata:Tools/Visualize_data)  - Wikidata Firefox add-ons: https://addons.mozilla.org/en-US/firefox/search/?q=wikidata  - Wikidata for Google Sheets: https://workspace.google.com/marketplace/app/wikipedia_and_wikidata_tools/595109124715 
-* Coolest Tool Awards: https://meta.wikimedia.org/wiki/Coolest_Tool_Award + https://meta.wikimedia.org/wiki/Coolest_Tool_Award/2019 + https://wikimania.wikimedia.org/wiki/2019:Technology_outreach_%26_innovation/Coolest_Tool_Award_2019   
+* [What is a tool?](https://meta.wikimedia.org/wiki/Coolest_Tool_Award#What_is_a_tool?) 
+* Discover Wikidata tools: [Wikidata:Tools](https://www.wikidata.org/wiki/Wikidata:Tools) + [on Toolhub](https://toolhub.wikimedia.org/search?q=wikidata) + [in Hay's Tools Directory](https://hay.toolforge.org/directory/?search=wikidata#/search/wikidata)
+* Tool examples:
+  - [Duplicate items](https://www.wikidata.org/wiki/Wikidata:Tools/Enhance_user_interface#Userscripts_to_add_basic_editing_features_that_Wikibase_lacks)
+  - [VizQuery](https://hay.toolforge.org/vizquery) to build SPARQL queries visually (via [Wikidata:Tools/Query_data](https://www.wikidata.org/wiki/Wikidata:Tools/Query data))
+  - [Histropedia](http://histropedia.com/), Wikidata powered timelines. [Timeline of Apollo missions](http://histropedia.com/timeline/7c00jg84kn/Apollo-missions) (via [Wikidata:Tools/Visualize_data](https://www.wikidata.org/wiki/Wikidata:Tools/Visualize data))
+  - [Wikidata Firefox add-ons](https://addons.mozilla.org/en-US/firefox/search/?q=wikidata)
+  - [Wikidata for Google Sheets](https://workspace.google.com/marketplace/app/wikipedia_and_wikidata_tools/595109124715) 
+* [Coolest Tool Awards](https://meta.wikimedia.org/wiki/Coolest_Tool_Award) + [2019 awards](https://meta.wikimedia.org/wiki/Coolest_Tool_Award/2019) + [more background info](https://wikimania.wikimedia.org/wiki/2019:Technology_outreach_%26_innovation/Coolest_Tool_Award_2019)   
 
 ### Projects
 * A WikiProject (on Wikidata) is a group of contributors who want to work together as a team to improve Wikidata. Editors join WikiProjects to improve specific areas of Wikidata and build the community.
