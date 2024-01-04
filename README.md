@@ -64,17 +64,17 @@ Add TOC
   * [Wikidata: A platform for data integration and dissemination for the life sciences and beyond](https://www.biorxiv.org/content/biorxiv/early/2015/11/16/031971.full.pdf), Elvira Mitraka, Andra Waagmeester, Sebastian Burgstaller-Muehlbacher, Lynn M.
 Schriml, Andrew I. Su and Benjamin M. Good 
   * [Mathematics in Wikidata?](https://oa.tib.eu/renate/bitstream/123456789/8963/1/paper-1-1-Mathematics.pdf), Philipp Scharpf, Moritz Schubotz and Bela Gipp
-* More articles on Wikidata: https://www.wikidata.org/wiki/Wikidata:Bibliography_of_Wikidata and https://scholar.google.nl/scholar?q=wikidata&hl=nl&as_sdt=0,5&as_vis=1 
+* More articles on Wikidata: [Wikidata:Bibliography of Wikidata](https://www.wikidata.org/wiki/Wikidata:Bibliography_of_Wikidata) and [Google Scholar](https://scholar.google.nl/scholar?q=wikidata&hl=nl&as_sdt=0,5&as_vis=1) 
 
 ## 2) The principles of Wikidata
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page15-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-See [Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction) and [Wikidata:Philosophy ](https://www.wikidata.org/wiki/Wikidata:Philosophy) 
+See [Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction) and [Wikidata:Philosophy](https://www.wikidata.org/wiki/Wikidata:Philosophy) 
 
 1. Structured descriptions of things
 2. Central storage (vs distributed), no data silos
-3. Multilingual (200+ languages): [Description of the Eiffel Tower](https://www.wikidata.org/wiki/Q243), check the [Dutch](https://www.wikidata.org/wiki/Q243?uselang=nl), [English](https://www.wikidata.org/wiki/Q243?uselang=en), [Portuguese](https://www.wikidata.org/wiki/Q243?uselang=pt) and [Japanese](https://www.wikidata.org/wiki/Q243?uselang=ja) interfaces/
+3. Multilingual (200+ languages): [Description of the Eiffel Tower](https://www.wikidata.org/wiki/Q243), check the [Dutch](https://www.wikidata.org/wiki/Q243?uselang=nl), [English](https://www.wikidata.org/wiki/Q243?uselang=en), [Portuguese](https://www.wikidata.org/wiki/Q243?uselang=pt) and [Japanese](https://www.wikidata.org/wiki/Q243?uselang=ja) interfaces.
 4. Linked data
    - Things, not strings - No plain text, but clickable links
    - Interconnected: [Eiffel Tower](https://www.wikidata.org/wiki/Q243) and [Gustave Eiffel](https://www.wikidata.org/wiki/Q20882) 
@@ -83,36 +83,37 @@ See [Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction)
    - Free, no trackers, no ads
    - No copyright or database rights, [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/)
    - Everyone can reuse data: query, share, copy, edit, download, sell, etc. 
-   - Everyone may contribute/edit data, add, improve, delete, merge, etc. --> community
+   - Everyone may contribute/edit data, add, improve, delete, merge, etc. --> Community, see below
 6) Community
    - International, 24K editors
    - Under the banner of the [Wikimedia Foundation](https://en.wikipedia.org/wiki/Wikimedia_Foundation) --> sister project of Wikipedia, Commons etc. 
-   - More in [section 7) Who creates Wikidata?](#who-creates-wikidata)
+   - More in [section 7: Who creates Wikidata?](#7-who-creates-wikidata)
 7) For humans and machines
    - Human readable, human writable --> Data available via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (KB)
-  - Machine readable, machine writable --> Data available via APIs in JSON, XML/RDF, CSV etc., 
-    - https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131 
-    - https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml
+   - Machine readable, machine writable --> Data available via APIs in JSON, XML/RDF, CSV etc., 
+       - https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&format=json  
+       - https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml
 8) Or, formulated slightly differently: a free public utility for data - One stop shop for Linked open data - LOD, but understandable
 
 ## 3) How things are described in Wikidata
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page33-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-Overview: [Help:About_data](https://www.wikidata.org/wiki/Help:About_data)
+Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 
-* "Mount Everest is the highest point in the world“Earth (Q2) (item) --> highest point (P610) (property) --> Mount Everest (Q513) (value)Triple : http://www.wikidata.org/entity/Q2  --> http://www.wikidata.org/entity/P610  --> http://www.wikidata.org/entity/Q513  
-* KB op Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131  --> https://www.wikidata.org/wiki/Q1526131 
-* Unieke identifier (Q-id)
-* Meertalige fingerprint: Label, Description, Aliases (Also known as)
-* Statements
-* Qualifiers
-* Bronvermeldingen
-* Externe identifiers (P’s): KB in andere databases
-* Samengevat: Wikidata datamodel : https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer 
-* Versiegeschiedenis KB-item: https://www.wikidata.org/w/index.php?title=Q1526131&action=history  --> Elke mutatie wordt opgeslagen! En kan teruggedraaid worden. Alles is openbaar!
-* Verder lezen & hulp: https://www.wikidata.org/wiki/Wikidata:Introduction#How_does_Wikidata_work? + https://www.wikidata.org/wiki/Wikidata:Glossary  
-* Wikidata intro videos on Youtube: https://www.youtube.com/results?search_query=introduction+wikidata + https://www.youtube.com/results?search_query=wikidata+101 + https://www.youtube.com/results?search_query=wikidata+help  
+* "Mount Everest is the highest point in the world" : Earth (Q2) (item) --> highest point (P610) (property) --> Mount Everest (Q513) (value)
+* Triple: [Earth (Q2)](http://www.wikidata.org/entity/Q2)  --> [highest point (P610)](http://www.wikidata.org/entity/P610)  --> [Mount Everest (Q513)](http://www.wikidata.org/entity/Q513)  
+* KB on Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131 (http:, /entity/), redirecting to https://www.wikidata.org/wiki/Q1526131 (https:, /wiki/)
+    1) Unique identifier (Q-id)
+    2) Multilingual fingerprint: Label, Description, Aliases (Also known as)
+    3) Statements
+    4) Qualifiers
+    5) Source references
+    6) External identifiers (P's): descriptions of the KB in external databases
+* In summary: [Simplified Wikidata data model](https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer) 
+* Version history of [Koninklijke Bibliotheek (Q1526131)](https://www.wikidata.org/wiki/Q1526131): https://www.wikidata.org/w/index.php?title=Q1526131&action=history  --> Every mutation is stored! And can be rolled back. Everything is public, for ever!
+* Further reading & help: [How does Wikidata work?](https://www.wikidata.org/wiki/Wikidata:Introduction#How_does_Wikidata_work?) + [Wikidata:Glossary](https://www.wikidata.org/wiki/Wikidata:Glossary)  
+* Wikidata intro videos on Youtube: Searches for [Introduction Wikidata](https://www.youtube.com/results?search_query=introduction+wikidata), [Wikidata 101](https://www.youtube.com/results?search_query=wikidata+101) and [Wikidata help](https://www.youtube.com/results?search_query=wikidata+help)  
 
 ## 4) How to discover Q's and P's in Wikidata
 
@@ -129,7 +130,7 @@ Wikidata als hub van 8000+ andere databases: https://hay.toolforge.org/propbrows
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page54-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-Overview: [Wikidata:Data_access](https://www.wikidata.org/wiki/Wikidata:Data_access)  
+Overview: [Wikidata:Data access](https://www.wikidata.org/wiki/Wikidata:Data_access)  
 
 #### 1) Zoeken in web browser (o.b.v. ElasticSearch)
 * https://www.wikidata.org/wiki/Wikidata:Data_access#Search 
