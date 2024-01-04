@@ -33,12 +33,17 @@ For more in-depth insights into how Wikidata is used specifically by/in/for the 
 Latest update: 4 January 2024 
 <hr>
 
-### Contents
-Doelen: 
-Breed overzicht van het Wikidata-landschap
-Meer zelfredzaamheid o.h.g.v. Wikidata
+## Contents
+Add TOC
 
-Wat is Wikidata?
+## Course objectives
+* Breed overzicht van het Wikidata-landschap
+* Meer zelfredzaamheid o.h.g.v. Wikidata
+
+## 1) What is Wikidata?
+
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page4-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
+
 Een verzameling gestuctureerde gegevens - Een linked open databank - Iets met het sematisch web? - Data voor mensen en machines - Een zus/broer van Wikipedia - Data voor iedereen - Publieke tegenhanger van commerciële big tech datacollecties - Een hub voor 1000den andere databases - Een gratis nutsvoorziening voor LOD - Een wereldwijde enthousiaste gemeenschap - Het gaafste LOD-project ooit! - Linked data, maar dan wél begrijpelijk - LOD, maar zonder de complexiteit van LOD - Een hulpmiddel om je te ontwikkelen o.h.g.v. (LO)D - Een (academisch) onderzoeksobject
 What can you tell me about Wikidata? // Can you give me 7 perspectives on Wikidata? - according to ChatGTP, 02-05-2023
 Random Wikidata items, https://www.wikidata.org/wiki/Special:Random // Random ‘obscure’ things described in Wikidata - according to ChatGTP, 02-05-2023
@@ -47,11 +52,11 @@ Wikidata bevat gestructureerde beschrijvingen van 103M dingen sinds okt 2012, vo
 Wikidata-items met geolocatie, mei 2019 - https://commons.wikimedia.org/wiki/File:Wikidata_Map_May_2019_Huge.png, Addshore, CC0, via Wikimedia Commons
 Wetenschappelijke artikelen over Wikidata: https://dl.acm.org/doi/pdf/10.1145/2872427.2874809 - https://arxiv.org/pdf/1908.11153.pdf - https://dl.acm.org/doi/pdf/10.1145/3579517 - https://link.springer.com/article/10.1007/s10639-023-11664-1 - https://opensym.org/wp-content/uploads/2019/08/os19-paper-A17-piscopo.pdf - http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/6486/3893 - https://arxiv.org/pdf/2202.13404.pdf - https://www.biorxiv.org/content/biorxiv/early/2015/11/16/031971.full.pdf  - https://oa.tib.eu/renate/bitstream/123456789/8963/1/paper-1-1-Mathematics.pdf 
 Meer artikelen over Wikidata via https://www.wikidata.org/wiki/Wikidata:Bibliography_of_Wikidata  + https://scholar.google.nl/scholar?q=wikidata&hl=nl&as_sdt=0,5&as_vis=1 
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/541a538d-54d4-4338-b26f-48e03c4d100d)
 
+## 2) The principles of Wikidata
 
-=======================================================
-Wat zijn de uitgangspunten van Wikidata?
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page15-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
+
 https://www.wikidata.org/wiki/Wikidata:Introduction  + https://www.wikidata.org/wiki/Wikidata:Philosophy 
 Gestructureerde beschrijvingen van dingen
 Centrale opslag (vs gedistribueerd – data silo’s)
@@ -61,10 +66,11 @@ Open & vrij - Gratis, geen trackers, geen ads  - Geen auteurs- of databankrech
 Community - Internationaal - 24K bewerkers - Onder de vlag van de Wikimedia Foundation  zusterproject van Wikipedia, Commons etc. - Meer bij sectie 7) Wie maakt Wikidata? 
 Voor mensen en machines - Mensleesbaar, mensschrijfbaar --> Data beschikbaar via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (Koninklijke bibliotheek) - Machineleesbaar, machineschrijfbaar --> Data beschikbaar via APIs in JSON, XML/RDF, CSV etc.,     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
 Of, iets anders geformuleerd…  - Gratis nutsvoorziening voor data  - One stop shop for Linked open data  - LOD, maar dan wél begrijpelijk
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/284d5fb3-170f-43ba-9bdf-2389283f8c08)
 
-=======================================================
-Hoe worden dingen in Wikidata beschreven?
+## 3) How things are described in Wikidata
+
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page33-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
+
 Overzicht: https://www.wikidata.org/wiki/Help:About_data  
 "Mount Everest is the highest point in the world“Earth (Q2) (item) --> highest point (P610) (property) --> Mount Everest (Q513) (value)Triple : http://www.wikidata.org/entity/Q2  --> http://www.wikidata.org/entity/P610  --> http://www.wikidata.org/entity/Q513  
 KB op Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131  --> https://www.wikidata.org/wiki/Q1526131 
@@ -79,18 +85,21 @@ Versiegeschiedenis KB-item: https://www.wikidata.org/w/index.php?title=Q1526131&
 Verder lezen & hulp: https://www.wikidata.org/wiki/Wikidata:Introduction#How_does_Wikidata_work? + https://www.wikidata.org/wiki/Wikidata:Glossary  
 Wikidata intro videos on Youtube: https://www.youtube.com/results?search_query=introduction+wikidata + https://www.youtube.com/results?search_query=wikidata+101 + https://www.youtube.com/results?search_query=wikidata+help  
 
-Hoe ontdek je Q’s en P’s?
+## 4) How to discover Q's and P's in Wikidata
+
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page47-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
+
 103 M Q-items + 11 K Properties (peildatum 25-05-2023)
 Zoeken naar Q’s en P’s: https://www.wikidata.org/wiki/Special:Search + https://www.wikidata.org/w/index.php?fulltext=1&search=konink&title=Special%3ASearch&ns0=1&ns120=1 
 Bladeren door alle Q’s: https://www.wikidata.org/wiki/Special:AllPages (maar niet heel handig bij 103M items)
 Bladeren door alle eigenschappen (P’s): https://www.wikidata.org/w/index.php?title=Special:ListProperties/&limit=500&offset=0  + https://www.wikidata.org/wiki/Special:AllPages?from=P610&to=&namespace=120  + https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all  
 Eigenschappen op thema: https://www.wikidata.org/wiki/Wikidata:List_of_properties + https://www.wikidata.org/wiki/Wikidata:List_of_properties/art + https://www.wikidata.org/wiki/Wikidata:Property_navboxes  
 Wikidata als hub van 8000+ andere databases: https://hay.toolforge.org/propbrowse/ (selecteer External identifiers)
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/df80c0b3-1cfd-473c-ba49-66b9d464478e)
 
-=======================================================
+## 5) How to request data from Wikidata
 
-Hoe vraag je data op? (1/2)
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page54-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
+
 Overzicht: https://www.wikidata.org/wiki/Wikidata:Data_access  
 
 1) Zoeken in web browser (o.b.v. ElasticSearch)
@@ -125,9 +134,6 @@ Base URL / API endpoint: https://wikidata.org/w/api.php
 Voorbeelden van API calls: https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
 All info about KB (Q1526131) in all available languages, as JSON: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131 
 Labels of KB (Q1526131) in all available languages, as XML: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/1f9e6ba3-29a5-42ac-af49-52aae90e398f)
-
-=======================================================
 
 6) Wikidata REST API, een gespecialiseerde API voor Wikidata: https://www.wikidata.org/wiki/Wikidata:REST_API 
 Voordeel: Cleaner, flatter structure in response data 
@@ -158,11 +164,10 @@ SPARQL basic videos: SPARQL in 11 minutes - https://www.youtube.com/watch?v=FvGn
 Wikidata Query Service tutorials: https://wdqs-tutorial.toolforge.org/ + https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial 
 Help portal for Wikidata Query Service:  https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help + A gentle introduction to the Wikidata Query Service: https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/A_gentle_introduction_to_the_Wikidata_Query_Service 
 StackOverflow: https://stackoverflow.com/questions/tagged/wikidata 
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/67cfd066-8d3a-4f79-85c1-51e17b2db525)
 
-=======================================================
+## 6) How to add data to Wikidata
 
-Hoe voeg je data toe?
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page91-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
  1) Los item - via GUI
 Nieuw Q-item aanmaken: https://www.wikidata.org/wiki/Special:NewItem + https://www.wikidata.org/wiki/Help:Items#Creating_a_new_item + https://www.wikidata.org/wiki/Wikidata:Tours  
@@ -181,11 +186,10 @@ QuickStatements: “Van (geformateerde) .txt  naar Wikidata”
 https://quickstatements.toolforge.org (Tool) + https://www.wikidata.org/wiki/Help:QuickStatements  (Help) + https://meta.wikimedia.org/wiki/QuickStatements 
 
 Aparte KB-workshop over Wikidata, OpenRefine en QuickStatements op dinsdag 4 juli 2023
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/d0de7aec-0ee9-4e6e-8207-c3f55291b742)
 
+## 7) Who creates Wikidata?
 
-=======================================================
-Wie maakt Wikidata (en hét verschil)?
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page99-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
 Wikidata community, ±1% of all people globally working on Wikidata: Pierre-Selim Huard, CC BY 4.0 via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:WikidataCon_2019_-_2019-10-26_-_2636_-_Group_Photo.jpg 
 What can you tell me about the Wikidata community? - according to ChatGTP, 02-05-2023
@@ -199,21 +203,18 @@ Wikidata workshops &  trainings (examples): https://www.wikidata.org/wiki/Wikida
 Wikidata hackathons & editathons (examples): https://www.mediawiki.org/wiki/Wiki_Techstorm_2018 + https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich_Hackathon2019 + https://www.wikidata.org/wiki/Wikidata:Events/GLOW_Edithaton +  
 Wikidata swag: T-shirts, socks, caps, pens, wallets, stickers, beer openers, key chains etc.
  
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/c6040c3d-be16-40c7-b863-21dace272f8e)
+## 8) Wikidata community Tools & Projects
 
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page111-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-=======================================================
-
-
-Wikidata community Tools & Projects
-Tools
+### Tools
 Wikidata tools: https://www.wikidata.org/wiki/Wikidata:Tools 
 What is a tool?: https://meta.wikimedia.org/wiki/Coolest_Tool_Award#What_is_a_tool? 
 Wikidata tools ontdekken: https://www.wikidata.org/wiki/Wikidata:Tools + https://toolhub.wikimedia.org/search?q=wikidata + https://hay.toolforge.org/directory/?search=wikidata#/search/wikidata
 Voorbeelden tools:  - Duplicate items: https://www.wikidata.org/wiki/Wikidata:Tools/Enhance_user_interface#Userscripts_to_add_basic_editing_features_that_Wikibase_lacks  - VizQuery, build SPARQL queries visually: https://hay.toolforge.org/vizquery (via https://www.wikidata.org/wiki/Wikidata:Tools/Query_data)  - Histropedia, Wikidata powered timelines. Timeline of Apollo missions: http://histropedia.com/timeline/7c00jg84kn/Apollo-missions    (via https://www.wikidata.org/wiki/Wikidata:Tools/Visualize_data)  - Wikidata Firefox add-ons: https://addons.mozilla.org/en-US/firefox/search/?q=wikidata  - Wikidata for Google Sheets: https://workspace.google.com/marketplace/app/wikipedia_and_wikidata_tools/595109124715 
 Coolest Tool Awards: https://meta.wikimedia.org/wiki/Coolest_Tool_Award + https://meta.wikimedia.org/wiki/Coolest_Tool_Award/2019 + https://wikimania.wikimedia.org/wiki/2019:Technology_outreach_%26_innovation/Coolest_Tool_Award_2019   
 
-Projects
+### Projects
 A WikiProject (on Wikidata) is a group of contributors who want to work together as a team to improve Wikidata. Editors join WikiProjects to improve specific areas of Wikidata and build the community.
 Wikiprojects (on Wikidata): https://www.wikidata.org/wiki/Wikidata:WikiProjects + https://www.wikidata.org/wiki/Wikidata:WikiProjects/nl 
 Learn more about WikiProjects: https://dashboard.wikiedu.org/training/wikidata-professional/wikidata-wikiprojects 
@@ -222,10 +223,11 @@ WikiProjects examples  - COVID-19: https://www.wikidata.org/wiki/Wikidata:WikiP
 WikiProjects overviews: https://www.wikidata.org/wiki/Wikidata:WikiProjects/List  + https://www.wikidata.org/wiki/Category:WikiProjects
 Cultural, GLAMs & libraries WikiProjects: https://www.wikidata.org/wiki/Category:Cultural_WikiProjects + https://www.wikidata.org/wiki/Category:GLAM_WikiProjects + https://www.wikidata.org/wiki/Category:Library_WikiProjects  
 WikiProjects KB: https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland/CurrentProjects + https://www.wikidata.org/wiki/Category:WikiProjects_National_Library_of_the_Netherlands. Meer hierover in de verdiepende cursus “Wikidata & KB” (aug-sept)
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/72142851-c7df-4340-9e9b-2eae8bfdcdaf)
 
-=======================================================
-Hoe blijf je op de hoogte?
+## 9) How do you stay informed?
+
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page126-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
+
 Wikidata Weekly Summary (newsletter): https://www.wikidata.org/wiki/Wikidata:Status_updates/2023_05_15 + https://www.wikidata.org/wiki/Wikidata:Status_updates  + https://www.wikidata.org/wiki/User_talk:OlafJanssen 
 
 Wikidata mailinglist:  https://lists.wikimedia.org/postorius/lists/wikidata.lists.wikimedia.org/ + https://lists.wikimedia.org/hyperkitty/list/wikidata@lists.wikimedia.org/ 	
@@ -240,7 +242,10 @@ Wikidata @Twitter:  https://twitter.com/wikidata
 
 Wikidata @Facebook: https://www.facebook.com/Wikidata + https://www.facebook.com/groups/WikidataCommunity + https://www.facebook.com/groups/Wikidata.GLAM/ 
 
-Waar vind je hulp? (passief & actief)
+## 10) Where to find help (passively and actively)
+
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page132-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
+
 Wikidata documentation portal: https://www.wikidata.org/wiki/Help:Contents  
 
 Wikidata Community portal: https://www.wikidata.org/wiki/Wikidata:Community_portal 
@@ -254,13 +259,10 @@ Live chat + Email : https://web.libera.chat/?channel=#wikidata + info@wikidata.o
 StackExchange (technisch): https://stackexchange.com/search?q=wikidata 
 
 Hulp van User:OlafJanssen : https://www.wikidata.org/wiki/User:OlafJanssen -- https://www.kb.nl/over-ons/experts/olaf-janssen 
-![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/ed032872-1f70-45e5-adfd-f251316b7b0d)
 
+## 11) How to proceed?
 
-=======================================================
-
-
-Hoe verder?
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page139-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
  
 Lees je verder in a.d.h.v. dit slidedeck  Zie transcriptie
 
@@ -275,6 +277,3 @@ Wikidata & SPAQRL workshop? (najaar)
 
 Vragen, ondersteuning, extra uitleg?   Olaf
 ![afbeelding](https://github.com/KBNLwikimedia/Wikidata-General-Overview/assets/6546244/fcba7cd3-a323-46db-a441-7a1991a11f96)
-
-
-=======================================================
