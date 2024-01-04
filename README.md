@@ -132,10 +132,9 @@ Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 
 Overview: [Wikidata:Data access](https://www.wikidata.org/wiki/Wikidata:Data_access)  
 
-#### 1) Zoeken in web browser (o.b.v. ElasticSearch)
+#### 1) Searching in a web browser (based on ElasticSearch)
 * https://www.wikidata.org/wiki/Wikidata:Data_access#Search 
-* https://www.wikidata.org/wiki/Special:Search 
-* https://www.wikidata.org/w/index.php?search=koninklijke+bibliotheek&title=Special:Search&profile=advanced&fulltext=1&ns0=1&ns120=1  
+* [Special:Search](https://www.wikidata.org/wiki/Special:Search) - [Search results for 'koninklijke bibliotheek'](https://www.wikidata.org/w/index.php?search=koninklijke+bibliotheek&title=Special:Search&profile=advanced&fulltext=1&ns0=1&ns120=1)  
 
 #### 2) HTML content in web browser
 * https://www.wikidata.org/wiki/Wikidata:Data_access#Linked_Data_Interface_(URI) 
@@ -172,23 +171,24 @@ https://www.wikidata.org/wiki/Wikidata:Data_access#MediaWiki_Action_API
 * Documentation (OpenAPI Swagger): https://doc.wikimedia.org/Wikibase/master/js/rest-api/ 
 * Voorbeelden KB: - Hele item over de KB (Q1526131) als JSON: https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131  - Lat-long van de KB als JSON: https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131/statements?property=P625 
 
-#### 7) Datadumps: https://www.wikidata.org/wiki/Wikidata:Database_download 
-* Weekly Wikidata full dumps: https://dumps.wikimedia.org/wikidatawiki/entities/ 
-* WDumper - create custom Wikidata RDF dumps: https://wdumps.toolforge.org/ 
+#### 7) Datadumps
+* [Wikidata:Database download](https://www.wikidata.org/wiki/Wikidata:Database_download) 
+* [Weekly Wikidata full dumps](https://dumps.wikimedia.org/wikidatawiki/entities) 
+* [WDumper](https://wdumps.toolforge.org/) - create custom Wikidata RDF dumps
 
 #### 8) Wikidata Query Service (o.b.v. SPARQL)
-* Centrale opslag + allerlei onderwerpen + alles verbonden = Vraag maar raak met SPARQL = Taal om te zoeken in Wikidata (en andere LOD-databases)
-* Afbeeldingen van huiskatten: https://w.wiki/xKz  
-* Zaken genoemd naar Franse presidenten, buiten Frankrijk: https://w.wiki/87M + https://blog.wikimedia.de/2016/10/30/10-cool-queries-for-wikidata-that-will-blow-your-mind-number-7-will-shock-you/ 
-* Doodsoorzaken van Amerikaanse presidenten: https://ramiro.org/notebook/us-presidents-causes-of-death/ 
-* Nederlanders genomineerd voor Nobelprijs, maar nooit gewonnen: https://w.wiki/7tg + https://web.archive.org/web/20190912110336/http://www.todayifoundout.com/index.php/2017/11/man-nominated-nobel-prize-84-times-never-won/ 
-* Schilderijen met allitererende titels:  https://w.wiki/87S
-* 10 grootste steden met vrouwelijke burgemeester: https://w.wiki/6kCQ  
-* Verjaardagskalender van vrouwen die in Oxford studeerden: https://w.wiki/7tn 
-* Geboorteplaatsen van overleden economen, per tijdvak: https://w.wiki/87T 
-* Meer SPARQL-voorbeelden: https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples
-* Queries over mensen: https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/human 
-* Query of the week: https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/qotw  
+Central storage + all kinds of topics + everything connected = Ask anything with SPARQL = Language to search in Wikidata (and other LOD databases)
+* [Images of domestic cats](https://w.wiki/xKz)
+* [Cases named after French presidents, outside France](https://w.wiki/87M), taken form [this article](https://blog.wikimedia.de/2016/10/30/10-cool-queries-for-wikidata-that-will-blow-your-mind-number-7-will-shock-you/)
+* [Causes of Death of US Presidents](https://ramiro.org/notebook/us-presidents-causes-of-death/)
+* [Dutch nominated for Nobel Prize, but never won](https://w.wiki/7tg). See also [The Man Who Was Nominated for the Nobel Prize 84 Times, But Never Won](https://web.archive.org/web/20190912110336/http://www.todayifoundout.com/index.php/2017/11/man-nominated-nobel-prize-84-times-never-won/)
+* [Paintings with alliterative titles](https://w.wiki/87S)
+* [10 largest cities with female mayors](https://w.wiki/6kCQ)
+* [Birthday calendar of women who studied at Oxford](https://w.wiki/7tn)
+* [Birthplaces of deceased economists, by time period](https://w.wiki/87T)
+* [More SPARQL examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples)
+    - [Queries about people](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/human)
+    - [Query of the week](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/qotw)
 
 Zelf aan de slag met SPARQL in Wikidata? 
 * SPARQL basic videos: SPARQL in 11 minutes - https://www.youtube.com/watch?v=FvGndkpa4K0  + Querying Wikidata with SPARQL for Absolute Beginners: https://commons.wikimedia.org/wiki/File:Querying_Wikidata_with_SPARQL_for_Absolute_Beginners.webm  
