@@ -30,7 +30,7 @@ For more in-depth insights into how Wikidata is used specifically by/in/for the 
 
 **Latest updates**
 
-Latest update: 4 January 2024 
+Latest update: 5 January 2024 
 <hr>
 
 ### Contents
@@ -99,7 +99,7 @@ See [Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction)
 
 Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 
-* "Mount Everest is the highest point in the world" : Earth (Q2) (item) --> highest point (P610) (property) --> Mount Everest (Q513) (value)
+* "Mount Everest is the highest point in the world" : Earth (Q2) (*item*) --> highest point (P610) (*property*) --> Mount Everest (Q513) (*value*)
 * Triple: [Earth (Q2)](http://www.wikidata.org/entity/Q2)  --> [highest point (P610)](http://www.wikidata.org/entity/P610)  --> [Mount Everest (Q513)](http://www.wikidata.org/entity/Q513)  
 * KB on Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131 (http: and /entity/), redirecting to https://www.wikidata.org/wiki/Q1526131 (https: and /wiki/)
     1) Unique identifier (Qxxxxxx)
@@ -135,64 +135,66 @@ Overview: [Wikidata:Data access](https://www.wikidata.org/wiki/Wikidata:Data_acc
 * [Special:Search](https://www.wikidata.org/wiki/Special:Search) - [Search results for 'koninklijke bibliotheek'](https://www.wikidata.org/w/index.php?search=koninklijke+bibliotheek&title=Special:Search&profile=advanced&fulltext=1&ns0=1&ns120=1) (Qs and Ps)  
 
 #### 2) HTML content in web browser
-* https://www.wikidata.org/wiki/Wikidata:Data_access#Linked_Data_Interface_(URI) 
-* Concept URI, the reference to the KB as a 'thing' in the real world: http://www.wikidata.org/entity/Q1526131 (note 'http' and 'entity' instead of 'https' and 'wiki')
-* Content negotiation: https://wikidata.org/wiki/Special:EntityData/Q1526131
-* Result in web browser: the reference to * the description of* the KB: https://www.wikidata.org/wiki/Q1526131 
+* [Linked Data Interface (URI)](https://www.wikidata.org/wiki/Wikidata:Data_access#Linked_Data_Interface_(URI)): provides access to individual Q-entities via URI: http://www.wikidata.org/entity/Q??? 
+* Concept URI = the reference to the 'thing' in the real world. For instance Koninklijke Bibliotheek (Q1526131): http://www.wikidata.org/entity/Q1526131 (note 'http' and 'entity' instead of 'https' and 'wiki')
+* Content negotiation: https://wikidata.org/wiki/Special:EntityData/Q1526131. When accessing a resource in the Special:EntityData namespace, the special page applies [content negotiation](https://en.wikipedia.org/wiki/content_negotiation) to determine the output format. 
+* Result in web browser: the reference to *the description of* the KB: https://www.wikidata.org/wiki/Q1526131 (note the 'https' and 'wiki')
 
-#### 3) Non-HTML content in web browser
-Request various formats explicitly: https://www.wikidata.org/wiki/Wikidata:Data_access#Details_2
-
-* HTML: https://wikidata.org/wiki/Special:EntityData/Q1526131.html + https://www.wikidata.org/wiki/Special:EntityData?id=Q1526131&format=html 
-* JSON: https://wikidata.org/wiki/Special:EntityData/Q1526131.json + https://www.wikidata.org/wiki/Special:EntityData?id=Q1526131&format=json    
-* RDF/XML: https://wikidata.org/wiki/Special:EntityData/Q1526131.rdf + https://www.wikidata.org/wiki/Special:EntityData?id=Q1526131&format=rdf  
-* JSONLD: https://wikidata.org/wiki/Special:EntityData/Q1526131.jsonld  
-* TTL/N3: https://wikidata.org/wiki/Special:EntityData/Q1526131.ttl  / https://wikidata.org/wiki/Special:EntityData/Q1526131.n3 
-* NT: https://wikidata.org/wiki/Special:EntityData/Q1526131.nt 
-* PHP: https://wikidata.org/wiki/Special:EntityData/Q1526131.php 
+#### 3)  Non-HTML content in web browser
+* See https://www.wikidata.org/wiki/Wikidata:Data_access#Details_2 
+* Request full Wikidata items in various output formats directly from the Qnumber via a [Special:EntityData](https://www.mediawiki.org/wiki/Wikibase/EntityData) URL.
+* The ouput can be obtained in seven different formats: HTML, JSON, JSON-LD, RDF, NT, TTL or N3 and PHP
+* If you don't want to depend on content negotiation (e.g. view non-HTML content in a web browser), you can actively request alternative formats by appendig a *format suffix* to the URL, eg. to retrieve JSON: [https://www.wikidata.org/wiki/Special:EntityData/Q1526131.json](https://www.wikidata.org/wiki/Special:EntityData/Q1526131.json). 
+* Other available formats are [JSON-LD](https://www.wikidata.org/wiki/Special:EntityData/Q1526131.jsonld), [RDF](https://www.wikidata.org/wiki/Special:EntityData/Q1526131.rdf), [NT](https://www.wikidata.org/wiki/Special:EntityData/Q1526131.nt), [TTL or N3](https://www.wikidata.org/wiki/Special:EntityData/Q1526131.ttl) and [PHP](https://www.wikidata.org/wiki/Special:EntityData/Q1526131.php). 
+* Equivalant URLs for these requests use the *format argument*, e.g. : [Special:EntityData?id=Q1526131](https://www.wikidata.org/wiki/Special:EntityData?id=Q1526131&format=rdf)[*&format=rdf*](https://www.wikidata.org/wiki/Special:EntityData?id=Q1526131&format=rdf).
 
 #### 4) Enriched web browser interfaces
-* Normal interface (KB): http://www.wikidata.org/entity/Q1526131 
-* Reasonator: https://reasonator.toolforge.org/?q=Q1526131  
-* SQID: https://sqid.toolforge.org/#/view?id=Q1526131 
+* Regular Wikidata interface (KB): http://www.wikidata.org/entity/Q1526131 
+* Reasonator Wikidata GUI: https://reasonator.toolforge.org/?q=Q1526131  
+* SQID Wikidata GUI: https://sqid.toolforge.org/#/view?id=Q1526131 
 
-#### 5) MediaWiki Action API, the common API for all Wikimedia projects (Wikidata, Wikipedia, Wikimedia Commons etc.)
-https://www.wikidata.org/wiki/Wikidata:Data_access#MediaWiki_Action_API
-* Base URL / API endpoint: https://wikidata.org/w/api.php
-* Examples of API calls: https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
-* All info about KB (Q1526131) in all available languages, as JSON: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131
-* Labels of KB (Q1526131) in all available languages, as XML: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml
+#### 5) MediaWiki Action API
+* [MediaWiki Action API](https://www.wikidata.org/wiki/Wikidata:Data_access#MediaWiki_Action_API) - the common API for all Wikimedia projects (Wikidata, Wikipedia, Wikimedia Commons etc.)
+* Base URL/API endpoint: https://wikidata.org/w/api.php
+* [Examples of API calls](https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities) (bottom of the page)
+* Examples KB (Q1526131):
+    - [All info about KB in all available languages](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131), as JSON
+    - [Labels of KB  in all available languages](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml), as XML 
 
-#### 6) Wikidata REST API, a specialized API for Wikidata: https://www.wikidata.org/wiki/Wikidata:REST_API
+#### 6) Wikidata REST API
+* [Wikidata REST API](https://www.wikidata.org/wiki/Wikidata:REST_API) - a specialized API for Wikidata
 * Advantage: Cleaner, flatter structure in response data
-* Base URL / API endpoint: https://www.wikidata.org/w/rest.php/wikibase/v0/
-* Documentation (OpenAPI Swagger): https://doc.wikimedia.org/Wikibase/master/js/rest-api/
-* Examples KB: - Entire item about the KB (Q1526131) as JSON: https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131 - Lat-long of the KB as JSON : https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131/statements?property=P625
+* Base URL/API endpoint: https://www.wikidata.org/w/rest.php/wikibase/v0/
+* [Documentation (OpenAPI Swagger)](https://doc.wikimedia.org/Wikibase/master/js/rest-api/) --> GET to request data 
+* Examples KB (Q1526131):
+    - [Entire item about KB](https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131), as JSON
+    - [Lat-long of KB](https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131/statements?property=P625), as JSON
 
 #### 7) Datadumps
 * [Wikidata:Database download](https://www.wikidata.org/wiki/Wikidata:Database_download) 
 * [Weekly Wikidata full dumps](https://dumps.wikimedia.org/wikidatawiki/entities) 
 * [WDumper](https://wdumps.toolforge.org/) - create custom Wikidata RDF dumps
 
-#### 8) Wikidata Query Service (o.b.v. SPARQL)
-Central storage + all kinds of topics + everything connected = Ask anything with SPARQL = Language to search in Wikidata (and other LOD databases)
-* [Images of domestic cats](https://w.wiki/xKz)
-* [Cases named after French presidents, outside France](https://w.wiki/87M), taken form [this article](https://blog.wikimedia.de/2016/10/30/10-cool-queries-for-wikidata-that-will-blow-your-mind-number-7-will-shock-you/)
-* [Causes of Death of US Presidents](https://ramiro.org/notebook/us-presidents-causes-of-death/)
-* [Dutch nominated for Nobel Prize, but never won](https://w.wiki/7tg). See also [The Man Who Was Nominated for the Nobel Prize 84 Times, But Never Won](https://web.archive.org/web/20190912110336/http://www.todayifoundout.com/index.php/2017/11/man-nominated-nobel-prize-84-times-never-won/)
-* [Paintings with alliterative titles](https://w.wiki/87S)
-* [10 largest cities with female mayors](https://w.wiki/6kCQ)
-* [Birthday calendar of women who studied at Oxford](https://w.wiki/7tn)
-* [Birthplaces of deceased economists, by time period](https://w.wiki/87T)
-* [More SPARQL examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples)
-    - [Queries about people](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/human)
-    - [Query of the week](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/qotw)
-
-Want to get started with SPARQL in Wikidata yourself?
-* SPARQL basic videos: SPARQL in 11 minutes - https://www.youtube.com/watch?v=FvGndkpa4K0  + Querying Wikidata with SPARQL for Absolute Beginners: https://commons.wikimedia.org/wiki/File:Querying_Wikidata_with_SPARQL_for_Absolute_Beginners.webm  
-* Wikidata Query Service tutorials: https://wdqs-tutorial.toolforge.org/ + https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial 
-* Help portal for Wikidata Query Service:  https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help + A gentle introduction to the Wikidata Query Service: https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/A_gentle_introduction_to_the_Wikidata_Query_Service 
-* [Wikidata related questions on StackOverflow](https://stackoverflow.com/questions/tagged/wikidata) 
+#### 8) Wikidata Query Service (based on SPARQL)
+Wikidata principles = Central data storage + all kinds of topics + everything connected --> Ask anything with SPARQL
+* SPARQL = Language to search in Wikidata (and other LOD databases)
+* SPARQL query examples: 
+    - [Images of domestic cats](https://w.wiki/xKz)
+    - [Cases named after French presidents, outside France](https://w.wiki/87M), taken form [this article](https://blog.wikimedia.de/2016/10/30/10-cool-queries-for-wikidata-that-will-blow-your-mind-number-7-will-shock-you/)
+    - [Causes of Death of US Presidents](https://ramiro.org/notebook/us-presidents-causes-of-death/)
+    - [Dutch nominated for Nobel Prize, but never won](https://w.wiki/7tg). See also [The Man Who Was Nominated for the Nobel Prize 84 Times, But Never Won](https://web.archive.org/web/20190912110336/http://www.todayifoundout.com/index.php/2017/11/man-nominated-nobel-prize-84-times-never-won/)
+    - [Paintings with alliterative titles](https://w.wiki/87S)
+    - [10 largest cities with female mayors](https://w.wiki/6kCQ)
+    - [Birthday calendar of women who studied at Oxford](https://w.wiki/7tn)
+    - [Birthplaces of deceased economists, by time period](https://w.wiki/87T)
+    - [More SPARQL examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples)
+        - [Queries about people](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/human)
+        - [Query of the week](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/qotw)
+* Want to get started with SPARQL in Wikidata yourself?
+    - SPARQL basic videos: [SPARQL in 11 minutes](https://www.youtube.com/watch?v=FvGndkpa4K0) + [Querying Wikidata with SPARQL for Absolute Beginners](https://commons.wikimedia.org/wiki/File:Querying_Wikidata_with_SPARQL_for_Absolute_Beginners.webm)  
+    - [Wikidata Query Service tutorial](https://wdqs-tutorial.toolforge.org/) + [Wikidata:SPARQL tutorial](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial) 
+    - [Help portal for Wikidata Query Service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help) + [A gentle introduction to the Wikidata Query Service](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/A_gentle_introduction_to_the_Wikidata_Query_Service) 
+    - [Wikidata related questions](https://stackoverflow.com/questions/tagged/wikidata) on StackOverflow
 
 ## 6) How to add data to Wikidata
 
@@ -204,7 +206,7 @@ Want to get started with SPARQL in Wikidata yourself?
 
 #### 2) Single item - via API
 * [MediaWiki Action API](https://wikidata.org/w/api.php): wbcreateclaim, wbsetaliases, wbsetclaim, wbsetclaimvalue, wbsetdescription, wbsetlabel, wbsetqualifier, wbsetreference - and further methods to add/modify data. 
-* [Wikidata REST API](https://www.wikidata.org/wiki/Wikidata:REST_API) : [REST API endpoint](https://www.wikidata.org/w/rest.php/wikibase/v0/) + [REST API testbench](https://doc.wikimedia.org/Wikibase/master/js/rest-api) (OpenAPI Swagger documentation --> PUT, POST , PATCH) 
+* [Wikidata REST API](https://www.wikidata.org/wiki/Wikidata:REST_API) : [REST API endpoint](https://www.wikidata.org/w/rest.php/wikibase/v0/) + [REST API testbench](https://doc.wikimedia.org/Wikibase/master/js/rest-api) (OpenAPI Swagger documentation --> PUT, POST and PATCH to add/modify data) 
 
 #### 3) In Bulk - OpenRefine
 * OpenRefine: "From Excel sheet to Wikidata"
@@ -297,4 +299,4 @@ Want to get started with SPARQL in Wikidata yourself?
     - [OpenRefine-Wikidata Introduction Workshop](https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop), a practical 90 minutes workshop (in Dutch) to learn how to work with OpenRefine and Wikidata at a basic level.
     - [Wikibase resources](https://github.com/KBNLwikimedia/Wikibase-resources), a collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB.
     - Wikidata & SPAQRL workshop (2024, to be announced)
-* Questions? Looking for support or extra explanations? Contact Olaf Janssen
+* Questions? Looking for support or extra explanations? Contact Olaf Janssen, see above for his details
