@@ -33,6 +33,10 @@ For more in-depth insights into how Wikidata is used specifically by/in/for the 
 Latest update: 5 January 2024 
 <hr>
 
+### Objectives of this page
+1) To provide a broad overview of the Wikidata landscape, including both the technical and non-technical (social, community) aspects.
+2) To foster and stimulate more self-reliance in exploring the Wikidata universe
+
 ### Contents
 - [1) What is Wikidata?](#1-what-is-wikidata)
 - [2) The principles of Wikidata](#2-the-principles-of-wikidata)
@@ -61,11 +65,6 @@ Latest update: 5 January 2024
 - [11) How to proceed?](#11-how-to-proceed)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-### Objectives of this page
-1) To provide a broad overview of the Wikidata landscape, including both the technical and non-technical (social, community) aspects.
-2) To foster and stimulate more self-reliance in exploring the Wikidata universe
 
 ## 1) What is Wikidata?
 
