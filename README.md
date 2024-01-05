@@ -34,7 +34,7 @@ Latest update: 5 January 2024
 <hr>
 
 ### Contents
-- [1) What is Wikidata?](#1-what-is-wikidata-)
+- [1) What is Wikidata?](#1-what-is-wikidata)
 - [2) The principles of Wikidata](#2-the-principles-of-wikidata)
 - [3) How things are described in Wikidata](#3-how-things-are-described-in-wikidata)
 - [4) How to discover Qs and Ps in Wikidata](#4-how-to-discover-qs-and-ps-in-wikidata)
@@ -52,7 +52,7 @@ Latest update: 5 January 2024
     + [2) Single item - via API](#2-single-item--via-api)
     + [3) In Bulk - OpenRefine](#3-in-bulk--openrefine)
     + [4) In Bulk - QuickStatements](#4-in-bulk--quickstatements)
-- [7) Who creates Wikidata?](#7-who-creates-wikidata-)
+- [7) Who creates Wikidata?](#7-who-creates-wikidata)
 - [8) Wikidata community Tools & Projects](#8-wikidata-community-tools--projects)
   * [Tools](#tools)
   * [Projects](#projects)
