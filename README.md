@@ -53,7 +53,7 @@ Latest update: 5 January 2024
     + [3) In Bulk - OpenRefine](#3-in-bulk--openrefine)
     + [4) In Bulk - QuickStatements](#4-in-bulk--quickstatements)
 - [7) Who creates Wikidata?](#7-who-creates-wikidata)
-- [8) Wikidata community Tools & Projects](#8-wikidata-community-tools-projects)
+- [8) Wikidata community Tools & Projects](#8-wikidata-community-tools--projects)
   * [Tools](#tools)
   * [Projects](#projects)
 - [9) How to stay informed](#9-how-to-stay-informed)
