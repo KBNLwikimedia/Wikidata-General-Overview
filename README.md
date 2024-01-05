@@ -50,8 +50,6 @@ Add TOC
 * In addition to being a broad database, Wikidata can also be very specific, e.g. [887 Van Gogh paintings](https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Creator/Vincent_van_Gogh) (d.d. 02-05-2023)
 * Wikidata contains structured descriptions of 108M things, starting from October 2012 ([source](https://www.wikidata.org/wiki/Wikidata:Statistics), per 4 Jan 2024)
 * Things included in Wikidata: Scientific articles - People - Animals and plants - Events - Countries, provinces, municipalities, cities, villages - Streets, roads, squares - Buildings - Vehicles - Companies and institutions - Works of art (film, music, paintings, etc.) - Chemical substances - Astromic objects - Genes - etc. etc.
-<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Wikidata-map-2023-06-26-items-intensity-100.png/1920px-Wikidata-map-2023-06-26-items-intensity-100.png" width="200" align="right"/>
-
 * [Wikidata items with geo locations](https://commons.wikimedia.org/wiki/File:Wikidata-map-2023-06-26-items-intensity-100.png), June 2023. Addshore, CC0, via Wikimedia Commons
 * Scientific articles on Wikidata:
   * [From Freebase to Wikidata: The Great Migration](https://dl.acm.org/doi/pdf/10.1145/2872427.2874809), Thomas Pellissier Tanon, Denny Vrandecic, Sebastian Schaffert, Thomas Steiner and Lydia Pintscher
@@ -104,12 +102,12 @@ Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 * "Mount Everest is the highest point in the world" : Earth (Q2) (item) --> highest point (P610) (property) --> Mount Everest (Q513) (value)
 * Triple: [Earth (Q2)](http://www.wikidata.org/entity/Q2)  --> [highest point (P610)](http://www.wikidata.org/entity/P610)  --> [Mount Everest (Q513)](http://www.wikidata.org/entity/Q513)  
 * KB on Wikidata: Concept URI: http://www.wikidata.org/entity/Q1526131 (http: and /entity/), redirecting to https://www.wikidata.org/wiki/Q1526131 (https: and /wiki/)
-    1) Unique identifier (Q-id)
+    1) Unique identifier (Qxxxxxx)
     2) Multilingual fingerprint: Label, Description, Aliases (Also known as)
     3) Statements
     4) Qualifiers
     5) Source references
-    6) External identifiers (P's): descriptions of the KB in external databases
+    6) External identifiers: descriptions of KB in external databases
 * In summary: [Simplified Wikidata data model](https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer) 
 * Version history of [Koninklijke Bibliotheek (Q1526131)](https://www.wikidata.org/wiki/Q1526131): https://www.wikidata.org/w/index.php?title=Q1526131&action=history  --> Every mutation is stored! And can be rolled back. Everything is public, for ever!
 * Further reading & help: [How does Wikidata work?](https://www.wikidata.org/wiki/Wikidata:Introduction#How_does_Wikidata_work?) + [Wikidata:Glossary](https://www.wikidata.org/wiki/Wikidata:Glossary)  
@@ -120,7 +118,7 @@ Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page47-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
 * Wikidata contains 103M Qitems + 11K Properties (dated 25-05-2023)
-* Searching for Qs en Ps: [Special:Search](https://www.wikidata.org/wiki/Special:Search) + [search results for 'konink'](https://www.wikidata.org/w/index.php?fulltext=1&search=konink&title=Special%3ASearch&ns0=1&ns120=1) 
+* Searching for Qs en Ps: [Special:Search](https://www.wikidata.org/wiki/Special:Search) + [search results for 'konink'](https://www.wikidata.org/w/index.php?fulltext=1&search=konink&title=Special%3ASearch&ns0=1&ns120=1) (Ps and Qs)
 * Browsing all Items (Qs): [Special:AllPages](https://www.wikidata.org/wiki/Special:AllPages) (but not very useful for 103M items)
 * Browsing all Properties (Ps): [List of all Properties](https://www.wikidata.org/w/index.php?title=Special:ListProperties/&limit=500&offset=0)  + [All pages (Property namespace)](https://www.wikidata.org/wiki/Special:AllPages?from=P610&to=&namespace=120)  + [List of properties/all](https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all) + [Properties by theme](https://www.wikidata.org/wiki/Wikidata:Property_navboxes) (Anatomy, Ancient world, Astronomical objects etc.) 
 * [Search properties by keyword](https://www.wikidata.org/wiki/Wikidata:List_of_properties)
@@ -132,18 +130,18 @@ Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 
 Overview: [Wikidata:Data access](https://www.wikidata.org/wiki/Wikidata:Data_access)  
 
-#### 1) Searching in a web browser (based on ElasticSearch)
-* https://www.wikidata.org/wiki/Wikidata:Data_access#Search 
-* [Special:Search](https://www.wikidata.org/wiki/Special:Search) - [Search results for 'koninklijke bibliotheek'](https://www.wikidata.org/w/index.php?search=koninklijke+bibliotheek&title=Special:Search&profile=advanced&fulltext=1&ns0=1&ns120=1)  
+#### 1) Searching in a web browser 
+* https://www.wikidata.org/wiki/Wikidata:Data_access#Search - based on ElasticSearch
+* [Special:Search](https://www.wikidata.org/wiki/Special:Search) - [Search results for 'koninklijke bibliotheek'](https://www.wikidata.org/w/index.php?search=koninklijke+bibliotheek&title=Special:Search&profile=advanced&fulltext=1&ns0=1&ns120=1) (Qs and Ps)  
 
 #### 2) HTML content in web browser
 * https://www.wikidata.org/wiki/Wikidata:Data_access#Linked_Data_Interface_(URI) 
-* Concept URI, de verwijzing naar de KB als 'ding' in de echte wereld: http://www.wikidata.org/entity/Q1526131  (let op 'http' en 'entity' i.p.v. 'https' en 'wiki')
-* Content negotiation: https://wikidata.org/wiki/Special:EntityData/Q1526131  
-* Resultaat in web browser: de verwijzing naar * de beschrijving van* de KB: https://www.wikidata.org/wiki/Q1526131   
+* Concept URI, the reference to the KB as a 'thing' in the real world: http://www.wikidata.org/entity/Q1526131 (note 'http' and 'entity' instead of 'https' and 'wiki')
+* Content negotiation: https://wikidata.org/wiki/Special:EntityData/Q1526131
+* Result in web browser: the reference to * the description of* the KB: https://www.wikidata.org/wiki/Q1526131 
 
 #### 3) Non-HTML content in web browser
-Diverse formaten expliciet opvragen: https://www.wikidata.org/wiki/Wikidata:Data_access#Details_2  
+Request various formats explicitly: https://www.wikidata.org/wiki/Wikidata:Data_access#Details_2
 
 * HTML: https://wikidata.org/wiki/Special:EntityData/Q1526131.html + https://www.wikidata.org/wiki/Special:EntityData?id=Q1526131&format=html 
 * JSON: https://wikidata.org/wiki/Special:EntityData/Q1526131.json + https://www.wikidata.org/wiki/Special:EntityData?id=Q1526131&format=json    
@@ -153,23 +151,23 @@ Diverse formaten expliciet opvragen: https://www.wikidata.org/wiki/Wikidata:Data
 * NT: https://wikidata.org/wiki/Special:EntityData/Q1526131.nt 
 * PHP: https://wikidata.org/wiki/Special:EntityData/Q1526131.php 
 
-#### 4) Verrijkte interfaces in webbrowser
-* Normale interface (KB): http://www.wikidata.org/entity/Q1526131 
+#### 4) Enriched web browser interfaces
+* Normal interface (KB): http://www.wikidata.org/entity/Q1526131 
 * Reasonator: https://reasonator.toolforge.org/?q=Q1526131  
 * SQID: https://sqid.toolforge.org/#/view?id=Q1526131 
 
-#### 5) MediaWiki Action API, de algemene API voor alle Wikimedia-projecten (Wikidata, Wikipedia, Wikimedia Commons etc.)
-https://www.wikidata.org/wiki/Wikidata:Data_access#MediaWiki_Action_API 
-* Base URL / API endpoint: https://wikidata.org/w/api.php 
-* Voorbeelden van API calls: https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
-* All info about KB (Q1526131) in all available languages, as JSON: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131 
-* Labels of KB (Q1526131) in all available languages, as XML: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
+#### 5) MediaWiki Action API, the common API for all Wikimedia projects (Wikidata, Wikipedia, Wikimedia Commons etc.)
+https://www.wikidata.org/wiki/Wikidata:Data_access#MediaWiki_Action_API
+* Base URL / API endpoint: https://wikidata.org/w/api.php
+* Examples of API calls: https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
+* All info about KB (Q1526131) in all available languages, as JSON: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131
+* Labels of KB (Q1526131) in all available languages, as XML: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml
 
-#### 6) Wikidata REST API, een gespecialiseerde API voor Wikidata: https://www.wikidata.org/wiki/Wikidata:REST_API 
-* Voordeel: Cleaner, flatter structure in response data 
-* Base URL / API endpoint: https://www.wikidata.org/w/rest.php/wikibase/v0/ 
-* Documentation (OpenAPI Swagger): https://doc.wikimedia.org/Wikibase/master/js/rest-api/ 
-* Voorbeelden KB: - Hele item over de KB (Q1526131) als JSON: https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131  - Lat-long van de KB als JSON: https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131/statements?property=P625 
+#### 6) Wikidata REST API, a specialized API for Wikidata: https://www.wikidata.org/wiki/Wikidata:REST_API
+* Advantage: Cleaner, flatter structure in response data
+* Base URL / API endpoint: https://www.wikidata.org/w/rest.php/wikibase/v0/
+* Documentation (OpenAPI Swagger): https://doc.wikimedia.org/Wikibase/master/js/rest-api/
+* Examples KB: - Entire item about the KB (Q1526131) as JSON: https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131 - Lat-long of the KB as JSON : https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q1526131/statements?property=P625
 
 #### 7) Datadumps
 * [Wikidata:Database download](https://www.wikidata.org/wiki/Wikidata:Database_download) 
@@ -190,32 +188,32 @@ Central storage + all kinds of topics + everything connected = Ask anything with
     - [Queries about people](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/human)
     - [Query of the week](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/qotw)
 
-Zelf aan de slag met SPARQL in Wikidata? 
+Want to get started with SPARQL in Wikidata yourself?
 * SPARQL basic videos: SPARQL in 11 minutes - https://www.youtube.com/watch?v=FvGndkpa4K0  + Querying Wikidata with SPARQL for Absolute Beginners: https://commons.wikimedia.org/wiki/File:Querying_Wikidata_with_SPARQL_for_Absolute_Beginners.webm  
 * Wikidata Query Service tutorials: https://wdqs-tutorial.toolforge.org/ + https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial 
 * Help portal for Wikidata Query Service:  https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help + A gentle introduction to the Wikidata Query Service: https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/A_gentle_introduction_to_the_Wikidata_Query_Service 
-* StackOverflow: https://stackoverflow.com/questions/tagged/wikidata 
+* [Wikidata related questions on StackOverflow](https://stackoverflow.com/questions/tagged/wikidata) 
 
 ## 6) How to add data to Wikidata
 
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page91-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
-####  1) Los item - via GUI
-* Nieuw Q-item aanmaken: https://www.wikidata.org/wiki/Special:NewItem + https://www.wikidata.org/wiki/Help:Items#Creating_a_new_item + https://www.wikidata.org/wiki/Wikidata:Tours  
-* Bestaand Q-item aanvullen / wijzigen: https://www.wikidata.org/wiki/Help:Items#Adding_to_an_existing_item_page 
+#### 1) Single item - via GUI
+* [Create new Qitem](https://www.wikidata.org/wiki/Special:NewItem) + [Help: Creating a new item](https://www.wikidata.org/wiki/Help:Items#Creating_a_new_item) + [Wikidata:Tours](https://www.wikidata.org/wiki/Wikidata:Tours), shows how Wikidata works and teach you how to add data. 
+* [Help: Adding to an existing item page](https://www.wikidata.org/wiki/Help:Items#Adding_to_an_existing_item_page)
 
-#### 2) Los item - via API
-* MediaWiki Action API: https://wikidata.org/w/api.php (wbsetaliases, wbsetclaim, wbsetclaimvalue, wbsetdescription, wbsetlabel, wbsetqualifier, wbsetreference)
-* Wikidata REST API: https://www.wikidata.org/w/rest.php/wikibase/v0/ + https://doc.wikimedia.org/Wikibase/master/js/rest-api/ (PUT, POST, PATCH) + https://www.wikidata.org/wiki/Wikidata:REST_API 
+#### 2) Single item - via API
+* [MediaWiki Action API](https://wikidata.org/w/api.php): wbcreateclaim, wbsetaliases, wbsetclaim, wbsetclaimvalue, wbsetdescription, wbsetlabel, wbsetqualifier, wbsetreference - and further methods to add/modify data. 
+* [Wikidata REST API](https://www.wikidata.org/wiki/Wikidata:REST_API) : [REST API endpoint](https://www.wikidata.org/w/rest.php/wikibase/v0/) + [REST API testbench](https://doc.wikimedia.org/Wikibase/master/js/rest-api) (OpenAPI Swagger documentation --> PUT, POST , PATCH) 
 
-#### 3) In bulk - OpenRefine
-* OpenRefine: “Van Excel-sheet naar Wikidata”
-* https://www.openrefine.org  
+#### 3) In Bulk - OpenRefine
+* OpenRefine: "From Excel sheet to Wikidata"
+* https://www.openrefine.org
+* See the dedicated KB [OpenRefine-Wikidata Introduction Workshop](https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop), a practical 90 minutes workshop (in Dutch) to learn how to work with OpenRefine and Wikidata at a basic level.
 
-#### 4) In bulk - QuickStatements
-* QuickStatements: “Van (geformateerde) .txt  naar Wikidata”
-* https://quickstatements.toolforge.org (Tool) + https://www.wikidata.org/wiki/Help:QuickStatements  (Help) + https://meta.wikimedia.org/wiki/QuickStatements 
-* Aparte KB-workshop over Wikidata, OpenRefine en QuickStatements op dinsdag 4 juli 2023
+#### 4) In Bulk - QuickStatements
+* QuickStatements (QS): "From (formatted) .txt to Wikidata"
+* [QuickStatements tool](https://quickstatements.toolforge.org)  + [QuickStatements help](https://www.wikidata.org/wiki/Help:QuickStatements) 
 
 ## 7) Who creates Wikidata?
 
