@@ -46,7 +46,7 @@ Latest update: 5 January 2024
     + [5) MediaWiki Action API](#5--mediawiki-action-api)
     + [6) Wikidata REST API](#6--wikidata-rest-api)
     + [7) Datadumps](#7--datadumps)
-    + [8) Wikidata Query Service)](#8--wikidata-query-service)
+    + [8) Wikidata Query Service](#8--wikidata-query-service)
 - [6) How to add data to Wikidata](#6--how-to-add-data-to-wikidata)
     + [1) Single item - via GUI](#1--single-item---via-gui)
     + [2) Single item - via API](#2--single-item---via-api)
