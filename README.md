@@ -30,7 +30,7 @@ For more in-depth insights into how Wikidata is used specifically by/in/for the 
 
 **Latest updates**
 
-Latest update: 5 January 2024 
+Latest update: 10 October 2024 (updated section 'Scientific articles related to Wikidata')
 <hr>
 
 ### Objectives of this page
@@ -39,6 +39,7 @@ Latest update: 5 January 2024
 
 ### Contents
 - [1) What is Wikidata?](#1-what-is-wikidata)
+    + [Scientific articles related to Wikidata](#scientific-articles-related-to-wikidata)
 - [2) The principles of Wikidata](#2-the-principles-of-wikidata)
 - [3) How things are described in Wikidata](#3-how-things-are-described-in-wikidata)
 - [4) How to discover Qs and Ps in Wikidata](#4-how-to-discover-qs-and-ps-in-wikidata)
@@ -71,24 +72,39 @@ Latest update: 5 January 2024
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page4-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
 * Various answers: A collection of structured data - A linked open database - Something to do with the sematic web? - Data for people and machines - A sister/brother of Wikipedia - Data for everyone - Public counterpart to commercial big tech data collections - A hub for 1000s of other databases - A free public utility for LOD - A worldwide enthusiastic community - The coolest LOD project ever! - Linked data, but understandable - LOD, but without the complexity of LOD - A training tool to develop yourself in the field of (linked open) data - An (academic) research object
-*  Prompts for ChatGTP, 2023-05-02: "What can you tell me about Wikidata?" and "Can you give me 7 perspectives on Wikidata?"
+* Prompts for ChatGTP, 2023-05-02: "What can you tell me about Wikidata?" and "Can you give me 7 perspectives on Wikidata?"
 * [Random Wikidata items](https://www.wikidata.org/wiki/Special:Random).  Prompts for ChatGTP, 02-05-2023: "Can you give me 50 random 'obscure' things described in Wikidata"
 * In addition to being a broad database, Wikidata can also be very specific, e.g. [887 Van Gogh paintings](https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Creator/Vincent_van_Gogh) (d.d. 02-05-2023)
 * Wikidata contains structured descriptions of 108M things, starting from October 2012 ([source](https://www.wikidata.org/wiki/Wikidata:Statistics), per 4 Jan 2024)
 * Things included in Wikidata: Scientific articles - People - Animals and plants - Events - Countries, provinces, municipalities, cities, villages - Streets, roads, squares - Buildings - Vehicles - Companies and institutions - Works of art (film, music, paintings, etc.) - Chemical substances - Astromic objects - Genes - etc. etc.
 * [Wikidata items with geo locations](https://commons.wikimedia.org/wiki/File:Wikidata-map-2023-06-26-items-intensity-100.png), June 2023. Addshore, CC0, via Wikimedia Commons
-* Scientific articles on Wikidata:
-  * [From Freebase to Wikidata: The Great Migration](https://dl.acm.org/doi/pdf/10.1145/2872427.2874809), Thomas Pellissier Tanon, Denny Vrandecic, Sebastian Schaffert, Thomas Steiner and Lydia Pintscher
-  * [Wikidata from a Research Perspective - A Systematic Mapping Study of Wikidata](https://arxiv.org/pdf/1908.11153.pdf), Mariam Farda-Sarbas and Claudia Müller-Birn
-  * [Queer Identities, Normative Databases: Challenges to Capturing Queerness On Wikidata](https://dl.acm.org/doi/pdf/10.1145/3579517), Katy Weathington and Jed R. Brubaker
-  * [Investigating the potential of the semantic web for education: Exploring Wikidata as a learning platform](https://link.springer.com/article/10.1007/s10639-023-11664-1), Shani Evenstein Sigalov and Rafi Nachmias
-  * [What we talk about when we talk about Wikidata quality: a literature survey](https://opensym.org/wp-content/uploads/2019/08/os19-paper-A17-piscopo.pdf), Alessandro Piscopo and Elena Simperl
-  * [Widaug. Data augmentation for named entity recognition using Wikidata](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/6486/3893), Pablo Calleja, Alberto Sanchez and Oscar Corcho
-  * [Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking](https://arxiv.org/pdf/2202.13404.pdf), Tuan Lai, Heng Ji and ChengXiang Zhai
-  * [Wikidata: A platform for data integration and dissemination for the life sciences and beyond](https://www.biorxiv.org/content/biorxiv/early/2015/11/16/031971.full.pdf), Elvira Mitraka, Andra Waagmeester, Sebastian Burgstaller-Muehlbacher, Lynn M.
-Schriml, Andrew I. Su and Benjamin M. Good 
-  * [Mathematics in Wikidata?](https://oa.tib.eu/renate/bitstream/123456789/8963/1/paper-1-1-Mathematics.pdf), Philipp Scharpf, Moritz Schubotz and Bela Gipp
-* More articles on Wikidata: [Wikidata:Bibliography of Wikidata](https://www.wikidata.org/wiki/Wikidata:Bibliography_of_Wikidata) and [Google Scholar](https://scholar.google.nl/scholar?q=wikidata&hl=nl&as_sdt=0,5&as_vis=1) 
+
+### Scientific articles related to Wikidata
+* [From Freebase to Wikidata: The Great Migration](https://dl.acm.org/doi/pdf/10.1145/2872427.2874809), Thomas Pellissier Tanon, Denny Vrandecic, Sebastian Schaffert, Thomas Steiner and Lydia Pintscher
+* [Wikidata from a Research Perspective - A Systematic Mapping Study of Wikidata](https://arxiv.org/pdf/1908.11153.pdf), Mariam Farda-Sarbas and Claudia Müller-Birn
+* [Queer Identities, Normative Databases: Challenges to Capturing Queerness On Wikidata](https://dl.acm.org/doi/pdf/10.1145/3579517), Katy Weathington and Jed R. Brubaker
+* [Investigating the potential of the semantic web for education: Exploring Wikidata as a learning platform](https://link.springer.com/article/10.1007/s10639-023-11664-1), Shani Evenstein Sigalov and Rafi Nachmias
+* [What we talk about when we talk about Wikidata quality: a literature survey](https://opensym.org/wp-content/uploads/2019/08/os19-paper-A17-piscopo.pdf), Alessandro Piscopo and Elena Simperl
+* [Widaug. Data augmentation for named entity recognition using Wikidata](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/6486/3893), Pablo Calleja, Alberto Sanchez and Oscar Corcho
+* [Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking](https://arxiv.org/pdf/2202.13404.pdf), Tuan Lai, Heng Ji and ChengXiang Zhai
+* [Mathematics in Wikidata?](https://oa.tib.eu/renate/bitstream/123456789/8963/1/paper-1-1-Mathematics.pdf), Philipp Scharpf, Moritz Schubotz and Bela Gipp
+* Life sciences & Wikidata
+  * [Wikidata: A platform for data integration and dissemination for the life sciences and beyond](https://doi.org/10.1101/031971 ), Elvira Mitraka, Andra Waagmeester, Sebastian Burgstaller-Muehlbacher, Lynn M. Schriml, Andrew I. Su and Benjamin M. Good (2015)
+  * []()
+  * []()
+* Astronomy & Wikidata
+  * [Identifying Planetary Names in Astronomy Papers: A Multi-Step Approach](https://doi.org/10.48550/arXiv.2312.08579), Shapurian, Golnaz, Michael J. Kurtz, and Alberto Accomazzi. arXiv preprint arXiv:2312.08579 (2023). 
+  * [Using Wikidata for an Observation Facility Vocabulary](https://ivoa.net/documents/Notes/ObsFacilityWikidata/20231115/NOTE-ObsFacilityWikidata-1.0-20231115.html), Baptiste Cecconi et al.  Version 1.0, IVOA Note 2023-11-15
+* [Scholia](https://scholia.toolforge.org/)
+  * [Scholia, Scientometrics and Wikidata](https://doi.org/10.1007/978-3-319-70407-4_36), Nielsen, F.Å., Mietchen, D., Willighagen, E. (2017). See also [https://arxiv.org/abs/1703.04222](https://arxiv.org/abs/1703.04222).
+* More scientific articles related to Wikidata:
+  * [Wikidata:Bibliography of Wikidata](https://www.wikidata.org/wiki/Wikidata:Bibliography_of_Wikidata) 
+  * [Google Scholar](https://scholar.google.nl/scholar?q=wikidata&hl=nl&as_sdt=0,5&as_vis=1) on Wikidata
+  * [Semantic Scholar](https://www.semanticscholar.org/search?&q=wikidata) on Wikidata
+  * [Arxiv](https://arxiv.org/) on Wikidata
+    * [Articles mentioning 'Wikidata'](https://arxiv.org/search/?query=wikidata&searchtype=all&abstracts=show)
+    * [Articles with 'Wikidata' in the title](https://arxiv.org/search/?query=wikidata&searchtype=title&abstracts=show)
+  * [Open Research Knowledge Graph (ORKG)](https://orkg.org/search/wikidata?types=&createdBy=) on Wikidata
 
 ## 2) The principles of Wikidata
 
