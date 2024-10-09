@@ -74,8 +74,8 @@ Latest update: 10 October 2024 (updated section 'Scientific articles related to 
 * Various answers: A collection of structured data - A linked open database - Something to do with the sematic web? - Data for people and machines - A sister/brother of Wikipedia - Data for everyone - Public counterpart to commercial big tech data collections - A hub for 1000s of other databases - A free public utility for LOD - A worldwide enthusiastic community - The coolest LOD project ever! - Linked data, but understandable - LOD, but without the complexity of LOD - A training tool to develop yourself in the field of (linked open) data - An (academic) research object
 * Prompts for ChatGTP, 2023-05-02: "What can you tell me about Wikidata?" and "Can you give me 7 perspectives on Wikidata?"
 * [Random Wikidata items](https://www.wikidata.org/wiki/Special:Random).  Prompts for ChatGTP, 02-05-2023: "Can you give me 50 random 'obscure' things described in Wikidata"
-* In addition to being a broad database, Wikidata can also be very specific, e.g. [887 Van Gogh paintings](https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Creator/Vincent_van_Gogh) (d.d. 02-05-2023)
-* Wikidata contains structured descriptions of 108M things, starting from October 2012 ([source](https://www.wikidata.org/wiki/Wikidata:Statistics), per 4 Jan 2024)
+* In addition to being a broad database, Wikidata can also be very specific, e.g. [892 Van Gogh paintings](https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Creator/Vincent_van_Gogh) (d.d. 04-10-2024)
+* Wikidata contains structured descriptions of 114M things, starting from October 2012 ([source](https://www.wikidata.org/wiki/Wikidata:Statistics), per 5 Oct 2024)
 * Things included in Wikidata: Scientific articles - People - Animals and plants - Events - Countries, provinces, municipalities, cities, villages - Streets, roads, squares - Buildings - Vehicles - Companies and institutions - Works of art (film, music, paintings, etc.) - Chemical substances - Astromic objects - Genes - etc. etc.
 * [Wikidata items with geo locations](https://commons.wikimedia.org/wiki/File:Wikidata-map-2023-06-26-items-intensity-100.png), June 2023. Addshore, CC0, via Wikimedia Commons
 
@@ -125,7 +125,7 @@ See [Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction)
    - Everyone can reuse data: query, share, copy, edit, download, sell, etc. 
    - Everyone may contribute/edit data, add, improve, delete, merge, etc. --> Community, see below
 6) Community
-   - International, 24K editors
+   - International, 23K editors (Oct 2024)
    - Under the banner of the [Wikimedia Foundation](https://en.wikipedia.org/wiki/Wikimedia_Foundation) --> sister project of Wikipedia, Commons etc. 
    - More in [section 7: Who creates Wikidata?](#7-who-creates-wikidata)
 7) For humans and machines
@@ -164,7 +164,7 @@ Overview: [Help:About data](https://www.wikidata.org/wiki/Help:About_data)
 * Browsing all Items (Qs): [Special:AllPages](https://www.wikidata.org/wiki/Special:AllPages) (but not very useful for 103M items)
 * Browsing all Properties (Ps): [List of all Properties](https://www.wikidata.org/w/index.php?title=Special:ListProperties/&limit=500&offset=0)  + [All pages (Property namespace)](https://www.wikidata.org/wiki/Special:AllPages?from=P610&to=&namespace=120)  + [List of properties/all](https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all) + [Properties by theme](https://www.wikidata.org/wiki/Wikidata:Property_navboxes) (Anatomy, Ancient world, Astronomical objects etc.) + [Properties summary table](https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table)
 * [Search properties by keyword](https://www.wikidata.org/wiki/Wikidata:List_of_properties)
-* Wikidata as hub of [8.000+ external databases](https://hay.toolforge.org/propbrowse/) (select 'External identifiers')
+* Wikidata as hub of [9.045 external databases](https://hay.toolforge.org/propbrowse/) (select 'External identifiers') (dd 05-10-2024)
 
 ## 5) How to request data from Wikidata
 
@@ -264,11 +264,13 @@ Wikidata principles = Central data storage + all kinds of topics + everything co
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf/page99-800px-Wegwijzer_in_Wikidata%2C_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek%2C_6_juni_2023.pdf.jpg?20230605132149" width="200" align="right"/>
 
 * [Photo of ±1% of all people globally working on Wikidata](https://commons.wikimedia.org/wiki/File:WikidataCon_2019_-_2019-10-26_-_2636_-_Group_Photo.jpg), Pierre-Selim Huard, CC BY 4.0 via Wikimedia Commons. 
-* "What can you tell me about the Wikidata community?" - Prompt for ChatGTP, 02-05-2023
+* Prompts for ChatGPT: 
+  * "What can you tell me about the Wikidata community?" - 02-05-2023
+  * “What can you tell me about the mindset of/behind the Wikidata community?” - 04-10-2024
 * Wikidata = Sister project/community of Wikipedia, Wikimedia Commons etc.: Common core values are: Open/free knowledge, Collaboration, Knowledge sharing for the benefit of all
 * [Wikidata in other Wikimedia projects](https://www.wikidata.org/wiki/Wikidata:Sister_projects)
-* [Wikidata Statistics](https://www.wikidata.org/wiki/Wikidata:Statistics): 103M items (since Oct 2012) - 1.9B edits - 24K editors (dated 30-05-2023)
-* [Roles within the Wikidata community](https://www.wikidata.org/wiki/Wikidata:Contribute) can include: Data editor - Data modeler - Writer of documentation/howtos - Bug reporter - Content domain expert - Software & tools developer - SPARQL expert - Translator - Ambassador - Event organizer/supporter - Writer of project proposals/funding - Conflict mediator - Liaison between community and GLAMs - Communication/outreach - Teacher/trainer/speaker - And many more. 
+* [Wikidata Statistics](https://www.wikidata.org/wiki/Wikidata:Statistics): 114M items (since Oct 2012) - 2.25B edits - 23K editors (dated 05-10-2024)
+* [Roles within the Wikidata community](https://www.wikidata.org/wiki/Wikidata:Contribute) can include: Data editor - Data modeler - Writer of documentation/howtos - Bug reporter - Content domain expert - Software & tools developer - SPARQL expert - Translator - Ambassador - Event organizer/supporter - Writer of project proposals/funding - Conflict mediator - Liaison between community and GLAMs - Communication/outreach - Teacher/trainer/speaker - And many more. --> It’s not only about the ‘hard data’ roles!
 * [Wikidata community events](https://www.wikidata.org/wiki/Wikidata:Events) + [Events archive](https://www.wikidata.org/wiki/Wikidata:Events/archive) + [Media files related to Wikidata events](https://commons.wikimedia.org/wiki/Category:Wikidata_events). See also [Category:Wikidata Events](https://www.wikidata.org/wiki/Category:Wikidata_Events) 
 * [WikidataCon](https://www.wikidata.org/wiki/Category:WikidataCon): [WikidataCon 2021](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2021) + [WikidataCon 2019](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019) + [Media files related to WikidataCon](https://commons.wikimedia.org/wiki/Category:WikidataCon).
 * Wikidata workshops &  trainings examples: [Atelier Wikidata à Montréal](https://www.wikidata.org/wiki/Wikidata:Events/Atelier_Wikidata_%C3%A0_Montr%C3%A9al) - [Wikidata and Wikibase Workshop 2019](https://www.wikidata.org/wiki/Wikidata:Events/Belgium/Universiteit_Gent/Wikidata_and_Wikibase_Workshop/2019) - [Wikidata for beginners](https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_for_beginners) - [EuropeanaTech 2018 Wikidata workshop day](https://www.wikidata.org/wiki/Wikidata:Events/EuropeanaTech_2018_Wikidata_workshop_day) 
@@ -339,6 +341,7 @@ Wikidata principles = Central data storage + all kinds of topics + everything co
 * Check the other Wikimedia related courses of the KB 
     - [Wikidata & KB, an overview](https://github.com/KBNLwikimedia/Wikidata-KB-Overview), an overview of how Wikidata is used by/in/for both the linked open datasets (thesauri) and public domain heritage collections of the KB.
     - [OpenRefine-Wikidata Introduction Workshop](https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop), a practical 90 minutes workshop (in Dutch) to learn how to work with OpenRefine and Wikidata at a basic level.
-    - [Wikibase resources](https://github.com/KBNLwikimedia/Wikibase-resources), a collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB.
+    - [Wikibase resources](https://git![afbeelding](https://github.com/user-attachments/assets/331e5c74-b550-452d-9445-e0287e740cf3)![afbeelding](https://github.com/user-attachments/assets/f6a17e79-58fb-4215-803c-2e71a248c3a3)
+.com/KBNLwikimedia/Wikibase-resources), a collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB.
     - Wikidata & SPAQRL workshop (2024, to be announced)
 * Questions? Looking for support or extra explanations? Contact Olaf Janssen, see above for his details
