@@ -341,7 +341,6 @@ Wikidata principles = Central data storage + all kinds of topics + everything co
 * Check the other Wikimedia related courses of the KB 
     - [Wikidata & KB, an overview](https://github.com/KBNLwikimedia/Wikidata-KB-Overview), an overview of how Wikidata is used by/in/for both the linked open datasets (thesauri) and public domain heritage collections of the KB.
     - [OpenRefine-Wikidata Introduction Workshop](https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop), a practical 90 minutes workshop (in Dutch) to learn how to work with OpenRefine and Wikidata at a basic level.
-    - [Wikibase resources](https://git![afbeelding](https://github.com/user-attachments/assets/331e5c74-b550-452d-9445-e0287e740cf3)![afbeelding](https://github.com/user-attachments/assets/f6a17e79-58fb-4215-803c-2e71a248c3a3)
-.com/KBNLwikimedia/Wikibase-resources), a collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB.
+    - [Wikibase resources](https://github.com/KBNLwikimedia/Wikibase-resources), a collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB.
     - Wikidata & SPAQRL workshop (2024, to be announced)
 * Questions? Looking for support or extra explanations? Contact Olaf Janssen, see above for his details
