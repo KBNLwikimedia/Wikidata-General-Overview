@@ -10,7 +10,7 @@
 
 This page is a textual summary of 
 1. the (Dutch language) course *Guide to Wikidata* for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 6th June 2023. The (rather long) full slidedeck for this course is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf) and [Zenodo]( https://zenodo.org/record/8006441) as PDFs.
-2. TO ADD: In October 2024 the section on [Wikidata for research, science and cultural heritage](#wikidata-for-research-science-and-cultural-heritage) was added 15-1-2024 // https://www.wikidata.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.pdf&page= + [Zenodo](https://zenodo.org/record/13837957)
+2. TO ADD: In October 2024 the section on [Wikidata for research, science and cultural heritage](#wikidata-for-research-science-and-cultural-heritage) was added 15-1-2024 // [https://www.wikidata.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.pdf](https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.pdf)&page= + [Zenodo](https://zenodo.org/record/13837957)
 
 **Contact**
 
