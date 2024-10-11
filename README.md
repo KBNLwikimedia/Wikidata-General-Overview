@@ -30,7 +30,7 @@ For more in-depth insights into how Wikidata is used specifically by/in/for the 
 
 **Latest updates**
 
-Latest update: 10 October 2024 (updated section 'Scientific articles related to Wikidata')
+Latest update: 12 October 2024 (updated section 'Wikidata for research, science and cultural heritage')
 <hr>
 
 ### Objectives of this page
@@ -39,7 +39,6 @@ Latest update: 10 October 2024 (updated section 'Scientific articles related to 
 
 ### Contents
 - [1) What is Wikidata?](#1-what-is-wikidata)
-    + [Scientific articles related to Wikidata](#scientific-articles-related-to-wikidata)
 - [2) The principles of Wikidata](#2-the-principles-of-wikidata)
 - [3) How things are described in Wikidata](#3-how-things-are-described-in-wikidata)
 - [4) How to discover Qs and Ps in Wikidata](#4-how-to-discover-qs-and-ps-in-wikidata)
@@ -62,6 +61,7 @@ Latest update: 10 October 2024 (updated section 'Scientific articles related to 
   * [Tools](#tools)
   * [Projects](#projects)
 - [9) How to stay informed](#9-how-to-stay-informed)
+    + Articles: [Wikidata for research, science and cultural heritage](#wikidata-for-research-science-and-cultural-heritage)
 - [10) Where to find help (passively and actively)](#10-where-to-find-help-passively-and-actively)
 - [11) How to proceed?](#11-how-to-proceed)
 
@@ -78,33 +78,6 @@ Latest update: 10 October 2024 (updated section 'Scientific articles related to 
 * Wikidata contains structured descriptions of 114M things, starting from October 2012 ([source](https://www.wikidata.org/wiki/Wikidata:Statistics), per 5 Oct 2024)
 * Things included in Wikidata: Scientific articles - People - Animals and plants - Events - Countries, provinces, municipalities, cities, villages - Streets, roads, squares - Buildings - Vehicles - Companies and institutions - Works of art (film, music, paintings, etc.) - Chemical substances - Astromic objects - Genes - etc. etc.
 * [Wikidata items with geo locations](https://commons.wikimedia.org/wiki/File:Wikidata-map-2023-06-26-items-intensity-100.png), June 2023. Addshore, CC0, via Wikimedia Commons
-
-### Scientific articles related to Wikidata
-* [From Freebase to Wikidata: The Great Migration](https://dl.acm.org/doi/pdf/10.1145/2872427.2874809), Thomas Pellissier Tanon, Denny Vrandecic, Sebastian Schaffert, Thomas Steiner and Lydia Pintscher
-* [Wikidata from a Research Perspective - A Systematic Mapping Study of Wikidata](https://arxiv.org/pdf/1908.11153.pdf), Mariam Farda-Sarbas and Claudia Müller-Birn
-* [Queer Identities, Normative Databases: Challenges to Capturing Queerness On Wikidata](https://dl.acm.org/doi/pdf/10.1145/3579517), Katy Weathington and Jed R. Brubaker
-* [Investigating the potential of the semantic web for education: Exploring Wikidata as a learning platform](https://link.springer.com/article/10.1007/s10639-023-11664-1), Shani Evenstein Sigalov and Rafi Nachmias
-* [What we talk about when we talk about Wikidata quality: a literature survey](https://opensym.org/wp-content/uploads/2019/08/os19-paper-A17-piscopo.pdf), Alessandro Piscopo and Elena Simperl
-* [Widaug. Data augmentation for named entity recognition using Wikidata](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/6486/3893), Pablo Calleja, Alberto Sanchez and Oscar Corcho
-* [Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking](https://arxiv.org/pdf/2202.13404.pdf), Tuan Lai, Heng Ji and ChengXiang Zhai
-* [Mathematics in Wikidata?](https://oa.tib.eu/renate/bitstream/123456789/8963/1/paper-1-1-Mathematics.pdf), Philipp Scharpf, Moritz Schubotz and Bela Gipp
-* Life sciences & Wikidata
-  * [Wikidata: A platform for data integration and dissemination for the life sciences and beyond](https://doi.org/10.1101/031971 ), Elvira Mitraka, Andra Waagmeester, Sebastian Burgstaller-Muehlbacher, Lynn M. Schriml, Andrew I. Su and Benjamin M. Good (2015)
-  * []()
-  * []()
-* Astronomy & Wikidata
-  * [Identifying Planetary Names in Astronomy Papers: A Multi-Step Approach](https://doi.org/10.48550/arXiv.2312.08579), Shapurian, Golnaz, Michael J. Kurtz, and Alberto Accomazzi. arXiv preprint arXiv:2312.08579 (2023). 
-  * [Using Wikidata for an Observation Facility Vocabulary](https://ivoa.net/documents/Notes/ObsFacilityWikidata/20231115/NOTE-ObsFacilityWikidata-1.0-20231115.html), Baptiste Cecconi et al.  Version 1.0, IVOA Note 2023-11-15
-* [Scholia](https://scholia.toolforge.org/)
-  * [Scholia, Scientometrics and Wikidata](https://doi.org/10.1007/978-3-319-70407-4_36), Nielsen, F.Å., Mietchen, D., Willighagen, E. (2017). See also [https://arxiv.org/abs/1703.04222](https://arxiv.org/abs/1703.04222).
-* More scientific articles related to Wikidata:
-  * [Wikidata:Bibliography of Wikidata](https://www.wikidata.org/wiki/Wikidata:Bibliography_of_Wikidata) 
-  * [Google Scholar](https://scholar.google.nl/scholar?q=wikidata&hl=nl&as_sdt=0,5&as_vis=1) on Wikidata
-  * [Semantic Scholar](https://www.semanticscholar.org/search?&q=wikidata) on Wikidata, by field of study: [Art](https://www.semanticscholar.org/search?fos%5B0%5D=art&q=wikidata&sort=relevance) - [Biology](https://www.semanticscholar.org/search?fos%5B0%5D=biology&q=wikidata&sort=relevance) - [Computer Science](https://www.semanticscholar.org/search?fos%5B0%5D=computer-science&q=wikidata&sort=relevance) - [Education](https://www.semanticscholar.org/search?fos%5B0%5D=education&q=wikidata&sort=relevance) - [Environmental Science](https://www.semanticscholar.org/search?fos%5B0%5D=geography&q=wikidata&sort=relevance) - [Geography](https://www.semanticscholar.org/search?fos%5B0%5D=environmental-science&q=wikidata&sort=relevance) - [History](https://www.semanticscholar.org/search?fos%5B0%5D=history&q=wikidata&sort=relevance) - [Linguistics](https://www.semanticscholar.org/search?fos%5B0%5D=linguistics&q=wikidata&sort=relevance) - [Medicine](https://www.semanticscholar.org/search?fos%5B0%5D=medicine&q=wikidata&sort=relevance) - [Sociology](https://www.semanticscholar.org/search?fos%5B0%5D=sociology&q=wikidata&sort=relevance)
-  * [Arxiv](https://arxiv.org/) on Wikidata
-    * [Articles mentioning 'Wikidata'](https://arxiv.org/search/?query=wikidata&searchtype=all&abstracts=show)
-    * [Articles with 'Wikidata' in the title](https://arxiv.org/search/?query=wikidata&searchtype=title&abstracts=show)
-  * [Open Research Knowledge Graph (ORKG)](https://orkg.org/search/wikidata?types=&createdBy=) on Wikidata
 
 ## 2) The principles of Wikidata
 
@@ -318,6 +291,49 @@ Wikidata principles = Central data storage + all kinds of topics + everything co
     - [Other Wikidata Telegram channels](https://meta.wikimedia.org/wiki/Telegram#Wikidata) 
 * [Wikidata @Twitter](https://twitter.com/wikidata)  
 * [Wikidata @Facebook](https://www.facebook.com/Wikidata) + [Wikidata Community @Facebook](https://www.facebook.com/groups/WikidataCommunity) + [Wikidata.GLAM @Facebook](https://www.facebook.com/groups/Wikidata.GLAM) 
+
+### Wikidata for research, science and cultural heritage
+
+* *Unsorted articles*
+  * [From Freebase to Wikidata: The Great Migration](https://dl.acm.org/doi/pdf/10.1145/2872427.2874809), Thomas Pellissier Tanon, Denny Vrandecic, Sebastian Schaffert, Thomas Steiner and Lydia Pintscher
+  * [Wikidata from a Research Perspective - A Systematic Mapping Study of Wikidata](https://arxiv.org/pdf/1908.11153.pdf), Mariam Farda-Sarbas and Claudia Müller-Birn
+  * [Queer Identities, Normative Databases: Challenges to Capturing Queerness On Wikidata](https://dl.acm.org/doi/pdf/10.1145/3579517), Katy Weathington and Jed R. Brubaker
+  * [Investigating the potential of the semantic web for education: Exploring Wikidata as a learning platform](https://link.springer.com/article/10.1007/s10639-023-11664-1), Shani Evenstein Sigalov and Rafi Nachmias
+  * [What we talk about when we talk about Wikidata quality: a literature survey](https://opensym.org/wp-content/uploads/2019/08/os19-paper-A17-piscopo.pdf), Alessandro Piscopo and Elena Simperl
+* *Scientometrics / scholarly communication*
+  * [Scholia](https://scholia.toolforge.org/) is a service that creates visual scholarly profiles for researchers, articles, organizations, topics, species, chemicals, etc using bibliographic and other information in Wikidata. 
+  * Scholia example profiles: [Author - *Gerard van Breukelen*](https://scholia.toolforge.org/author/Q40107826) - [Article - *Disability-adjusted life years etc.*](https://scholia.toolforge.org/work/Q27860791) - [Journal - *Maastricht Journal of European and Comparative Law*](https://scholia.toolforge.org/venue/Q15760278) - [Organization - *Maastricht University*](https://scholia.toolforge.org/organization/Q1137652) - [Topic - *Obesity*](https://scholia.toolforge.org/topic/Q12174) - [Taxon - *Mosasaurus*](https://scholia.toolforge.org/taxon/Q312131) - [Chemical element - *Carbon*](https://scholia.toolforge.org/chemical-element/Q623)  
+  * Scholia - further reading
+    * [Scholia, Scientometrics and Wikidata](https://doi.org/10.1007/978-3-319-70407-4_36), Nielsen, F.Å., Mietchen, D., Willighagen, E. (2017). See also [https://arxiv.org/abs/1703.04222](https://arxiv.org/abs/1703.04222). 
+    * [Wikidata:Scholia](https://www.wikidata.org/wiki/Wikidata:Scholia) and [Github:Scholia](https://github.com/WDscholia) 
+* *Life sciences*
+  * [Wikidata: A platform for data integration and dissemination for the life sciences and beyond](https://doi.org/10.1101/031971 ), Elvira Mitraka, Andra Waagmeester, Sebastian Burgstaller-Muehlbacher, Lynn M. Schriml, Andrew I. Su and Benjamin M. Good (2015)
+  * []()
+  * []()
+* *Astronomy*
+  * [Identifying Planetary Names in Astronomy Papers: A Multi-Step Approach](https://doi.org/10.48550/arXiv.2312.08579), Shapurian, Golnaz, Michael J. Kurtz, and Alberto Accomazzi (2023). 
+  * [Using Wikidata for an Observation Facility Vocabulary](https://ivoa.net/documents/Notes/ObsFacilityWikidata/20231115/NOTE-ObsFacilityWikidata-1.0-20231115.html), Baptiste Cecconi et al. Version 1.0, IVOA Note 2023-11-15
+* *Mathematics*
+  * [Mathematics in Wikidata?](https://oa.tib.eu/renate/bitstream/123456789/8963/1/paper-1-1-Mathematics.pdf), Philipp Scharpf, Moritz Schubotz and Bela Gipp
+* *Language technology / Computational linguistics / AI / LLMs / NLP* 
+  *  [Fine-tuned LLMs Know More, Hallucinate Less with Few-Shot Sequence-to-Sequence Semantic Parsing over Wikidata](https://arxiv.org/abs/2305.14202), Xu, Silei et al. (2023).
+  * [Refining Wikidata Taxonomy using Large Language Models](https://arxiv.org/abs/2409.04056), Peng, Yiwen, Thomas Bonald and Mehwish Alam (2024) 
+  * [User-friendly Comparison of Similarity Algorithms on Wikidata](https://arxiv.org/abs/2108.05410 ) Ilievski, Filip, Pedro A. Szekely, Gleb Satyukov and Amandeep Singh (2021) 
+  * [Widaug. Data augmentation for named entity recognition using Wikidata](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/6486/3893), Pablo Calleja, Alberto Sanchez and Oscar Corcho (2023)
+  * [Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking](https://arxiv.org/abs/2202.13404), Tuan Lai, Heng Ji and ChengXiang Zhai (2022)
+* *GLAM / cultural heritage*
+  * [50 cool new things you can now do with KB’s collection highlights](https://kbnlwikimedia.github.io/KBCollectionHighlights/stories/Cool%20new%20things%20you%20can%20now%20do%20with%20the%20KB's%20collection%20highlights/), a 5 part series on *Wikifying* the collection highlights of the KB national library of the Netherlands
+* *Representation of (female) scientists*
+  * [Edit Wikipedia and Wikidata to tell the stories of women and other underrepresented groups in physics](https://www.aps.org/initiatives/advocate-amplify/public-engagement/wiki-scientist/courses), American Physical Society
+  * [Improve #WomenInSTEM Representation with Wikidata!](https://siarchives.si.edu/blog/improve-womeninstem-representation-wikidata), Smithsonian Institution Archives
+* *More scientific articles related to Wikidata*
+  * [Wikidata:Bibliography of Wikidata](https://www.wikidata.org/wiki/Wikidata:Bibliography_of_Wikidata) 
+  * [Google Scholar](https://scholar.google.nl/scholar?q=wikidata&hl=nl&as_sdt=0,5&as_vis=1) on Wikidata
+  * [Semantic Scholar](https://www.semanticscholar.org/search?&q=wikidata) on Wikidata, by field of study: [Art](https://www.semanticscholar.org/search?fos%5B0%5D=art&q=wikidata&sort=relevance) - [Biology](https://www.semanticscholar.org/search?fos%5B0%5D=biology&q=wikidata&sort=relevance) - [Computer Science](https://www.semanticscholar.org/search?fos%5B0%5D=computer-science&q=wikidata&sort=relevance) - [Education](https://www.semanticscholar.org/search?fos%5B0%5D=education&q=wikidata&sort=relevance) - [Environmental Science](https://www.semanticscholar.org/search?fos%5B0%5D=environmental-science&q=wikidata&sort=relevance) - [Geography](https://www.semanticscholar.org/search?fos%5B0%5D=geography&q=wikidata&sort=relevance) - [History](https://www.semanticscholar.org/search?fos%5B0%5D=history&q=wikidata&sort=relevance) - [Linguistics](https://www.semanticscholar.org/search?fos%5B0%5D=linguistics&q=wikidata&sort=relevance) - [Medicine](https://www.semanticscholar.org/search?fos%5B0%5D=medicine&q=wikidata&sort=relevance) - [Sociology](https://www.semanticscholar.org/search?fos%5B0%5D=sociology&q=wikidata&sort=relevance)
+  * [Arxiv](https://arxiv.org/) on Wikidata
+    * [Articles mentioning 'Wikidata'](https://arxiv.org/search/?query=wikidata&searchtype=all&abstracts=show)
+    * [Articles with 'Wikidata' in the title](https://arxiv.org/search/?query=wikidata&searchtype=title&abstracts=show)
+  * [Open Research Knowledge Graph (ORKG)](https://orkg.org/search/wikidata?types=&createdBy=) on Wikidata
 
 ## 10) Where to find help (passively and actively)
 
