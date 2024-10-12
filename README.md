@@ -309,10 +309,12 @@ Wikidata principles = Central data storage + all kinds of topics + everything co
   * Scholia - further reading
     * [Scholia, Scientometrics and Wikidata](https://doi.org/10.1007/978-3-319-70407-4_36), Nielsen, F.Å., Mietchen, D., Willighagen, E. (2017). See also [https://arxiv.org/abs/1703.04222](https://arxiv.org/abs/1703.04222). 
     * [Wikidata:Scholia](https://www.wikidata.org/wiki/Wikidata:Scholia) and [Github:Scholia](https://github.com/WDscholia) 
-* *Life sciences*
+* *Life and biomedical sciences*
   * [Wikidata: A platform for data integration and dissemination for the life sciences and beyond](https://doi.org/10.1101/031971 ), Elvira Mitraka, Andra Waagmeester, Sebastian Burgstaller-Muehlbacher, Lynn M. Schriml, Andrew I. Su and Benjamin M. Good (2015)
-  * []()
-  * []()
+  * [Wikidata as a knowledge graph for the life sciences](http://dx.doi.org/10.7554/eLife.52614 ), Waagmeester et al. (2020), eLife. 9. 
+  * [A protocol for adding knowledge to Wikidata: aligning resources on human coronaviruses](https://doi.org/10.1186/s12915-020-00940-y), Waagmeester, A., Willighagen, E.L., Su, A.I. et al., BMC Biol 19, 12 (2021). 
+  * [Biological pathway abstractions: from two-dimensional drawings to multidimensional linked data](https://doi.org/10.26481/dis.20240116aw),  Waagmeester, A. S., Maastricht University (2024) - This doctoral thesis has 415 mentions of Wikidata!
+  * [Wikidata and the bibliography of life](https://doi.org/10.7717/peerj.13712), Page, R.D.M., PeerJ 10:e13712 (2022) - See also https://vimeo.com/451179359
 * *Astronomy*
   * [Identifying Planetary Names in Astronomy Papers: A Multi-Step Approach](https://doi.org/10.48550/arXiv.2312.08579), Shapurian, Golnaz, Michael J. Kurtz, and Alberto Accomazzi (2023). 
   * [Using Wikidata for an Observation Facility Vocabulary](https://ivoa.net/documents/Notes/ObsFacilityWikidata/20231115/NOTE-ObsFacilityWikidata-1.0-20231115.html), Baptiste Cecconi et al. Version 1.0, IVOA Note 2023-11-15
