@@ -11,7 +11,7 @@
 This page is a textual summary of 
 1. the (Dutch language) course *Guide to Wikidata* for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 6th June 2023. The (rather long) full slidedeck for this course is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf) and [Zenodo]( https://zenodo.org/record/8006441) as PDFs.
 
-2. In October 2024 the section on [Wikidata for research, science and cultural heritage](#wikidata-for-research-science-and-cultural-heritage) was expanded, based on the content from [the corresponding section](https://commons.wikimedia.org/w/index.php?title=File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.pdf&page=73) in the presentation *[Wikidata Workshop - Theoretical part - Maastricht University - 15 October 2024](https://commons.wikimedia.org/w/index.php?title=File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.pdf)*
+2. In October 2024 the section on [Wikidata for research, science and cultural heritage](#wikidata-for-research-science-and-cultural-heritage) was expanded, based on the content from [the corresponding section](https://commons.wikimedia.org/w/index.php?title=File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.pdf&page=73) in the presentation *[Wikidata Workshop - Theoretical part - Maastricht University - 15 October 2024](https://commons.wikimedia.org/w/index.php?title=File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.pdf)* (also see [Zenodo](https://zenodo.org/records/13837957)).
 
 **Contact**
 
