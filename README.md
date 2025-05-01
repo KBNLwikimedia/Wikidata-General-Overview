@@ -1,4 +1,9 @@
-[<< Back to workshops and courses index](https://kbnlwikimedia.github.io/workshops-courses)
+<table width="100%" border="0"><tr><td align="left">
+<a href="https://kbnlwikimedia.github.io/workshops-courses"><< Back to workshops and courses index</a>
+</td><td align="right">
+<a href="https://github.com/KBNLwikimedia/Wikidata-General-Overview" target="_blank">>> To the Github repo of this page</a>
+</td></tr></table>
+<hr/>
 
 <p>
 <image src="images/Wikidata-logo-en.png" hspace="10" width="200"/>
